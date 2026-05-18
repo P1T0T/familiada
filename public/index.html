@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Centrum zarządzania</title>
+<link rel="stylesheet" href="index.css">
+<script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+
+<h1>Centrum zarządzania</h1>
+
+<div class="sound-panel">
+
+    <h3>Panel dźwięków</h3>
+
+    <select id="soundSelect">
+
+        <option value="BLAD.mp3">
+            Błąd
+        </option>
+
+        <option value="DOBRA.mp3">
+            Dobra odpowiedź
+        </option>
+
+        <option value="PRZERYWNIK.mp3">
+            Przerywnik
+        </option>
+
+        <option value="INTRO_FAMILIADA.mp3">
+            Intro
+        </option>
+
+    </select>
+
+    <button onclick="playManualSound()">
+        PLAY
+    </button>
+
+    <button onclick="stopManualSound()">
+        STOP
+    </button>
+
+    <div class="audio-progress">
+
+    <div id="audioTime">
+        00:00 / 00:00
+    </div>
+
+    <progress
+        id="audioBar"
+        value="0"
+        max="100">
+    </progress>
+
+</div>
+
+</div>
+
+<!-- Start gry -->
+<button id="btnStartGame">ROZPOCZNIJ GRĘ</button>
+
+<h2 id="question">Pytanie</h2>
+<button
+    id="showQuestionBtn"
+    onclick="showQuestion()">
+
+    POKAŻ PYTANIE
+
+</button>
+
+<div class="teams">
+    <div class="team">
+        <div id="leftTeam">
+            <input id="leftInput" placeholder="Drużyna 1">
+            <button onclick="confirmTeam('left')">✔</button>
+        </div>
+        <div id="leftPoints" class="points">0</div>
+    </div>
+
+    <div class="team">
+        <div id="rightTeam">
+            <input id="rightInput" placeholder="Drużyna 2">
+            <button onclick="confirmTeam('right')">✔</button>
+        </div>
+        <div id="rightPoints" class="points">0</div>
+    </div>
+</div>
+
+<h3>Odpowiedzi</h3>
+<div id="answers"></div>
+
+<div id="sum">SUMA: 0</div>
+
+<div class="addPanel">
+    <div>Dodaj punkty dla:</div>
+    <button onclick="addSum('left')">Drużyna 1</button>
+    <button onclick="addSum('right')">Drużyna 2</button>
+</div>
+
+<button onclick="nextQuestion()">PRZEJDŹ DALEJ</button>
+<button onclick="clearRoundPoints()">
+    WYCZYŚĆ PUNKTY
+</button>
+<button onclick="resetGame()">ZAKOŃCZ GRĘ</button>
+
+
+
+<h3>Błędy</h3>
+<div class="xpanel">
+
+    <div class="xgroup">
+
+        <div class="xgroup-title">
+            LEWA DRUŻYNA
+        </div>
+
+        <button onclick="toggleX('left1')">
+            X 1
+        </button>
+
+        <button onclick="toggleX('left2')">
+            X 2
+        </button>
+
+        <button onclick="toggleX('left3')">
+            X 3
+        </button>
+
+    </div>
+
+    <div class="xseparator"></div>
+
+    <div class="xgroup">
+
+        <div class="xgroup-title">
+            PRAWA DRUŻYNA
+        </div>
+
+        <button onclick="toggleX('right1')">
+            X 1
+        </button>
+
+        <button onclick="toggleX('right2')">
+            X 2
+        </button>
+
+        <button onclick="toggleX('right3')">
+            X 3
+        </button>
+
+    </div>
+
+    <div id="gameTimer">
+
+        <div id="gameTimerText">
+            CZAS GRY: 00:00
+        </div>
+
+        <div class="gameTimerButtons">
+
+            <button onclick="resumeGameTimer()">
+                START
+            </button>
+
+            <button onclick="pauseGameTimer()">
+                PAUZA
+            </button>
+
+            <button onclick="resetGameTimer()">
+                RESET
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

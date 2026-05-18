@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Familiada – Display</title>
+<link rel="stylesheet" href="display.css">
+<script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+
+<!-- LEWE X -->
+<div class="errors left">
+    <img src="x.png" class="x" id="x-left-1">
+    <img src="x.png" class="x" id="x-left-2">
+    <img src="x.png" class="x" id="x-left-3">
+</div>
+
+<!-- PRAWE X -->
+<div class="errors right">
+    <img src="x.png" class="x" id="x-right-1">
+    <img src="x.png" class="x" id="x-right-2">
+    <img src="x.png" class="x" id="x-right-3">
+</div>
+
+<!-- DRUŻYNY -->
+<div class="team left">
+    <div id="teamLeftName"></div>
+    <div id="teamLeftPoints"></div>
+</div>
+
+<div class="team right">
+    <div id="teamRightName"></div>
+    <div id="teamRightPoints"></div>
+</div>
+
+<!-- TABLICA -->
+<div class="frame">
+
+    <div id="question">
+        WITAMY W FAMILIADZIE
+    </div>
+
+    <div id="answers"></div>
+
+    <div id="sum"></div>
+
+</div>
+
+<!-- AUDIO -->
+<audio id="badSound" preload="auto">
+    <source src="BLAD.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="goodSound" preload="auto">
+    <source src="DOBRA.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="nextSound" preload="auto">
+    <source src="PRZERYWNIK.mp3" type="audio/mpeg">
+</audio>
+
+<script src="display.js"></script>
+
+</body>
+</html>

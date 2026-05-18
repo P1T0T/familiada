@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background: black;
+    font-family: "Courier New", monospace;
+    color: #ffd400;
+    overflow: hidden;
+}
+
+/* Ramka gry */
+.frame {
+    width: 700px; /* trochę szersza */
+    margin: 120px auto 0 auto; /* trochę w dół */
+    padding: 30px;
+    border: 6px solid #9a9a9a;
+    box-sizing: border-box;
+}
+
+/* Pytanie */
+#question {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+/* Odpowiedzi */
+#answers .row {
+    display: grid;
+    grid-template-columns: 1fr 110px;
+    font-size: 36px; /* większy tekst */
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+/* Suma punktów */
+#sum {
+    text-align: right;
+    font-size: 38px;
+    margin-top: 25px;
+}
+
+/* Drużyny */
+.team {
+    position: absolute;
+    top: 10px;
+    background: #111;
+    border: 3px solid #9a9a9a;
+    padding: 12px 22px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.team.left { left: 30px; }
+.team.right { right: 30px; }
+
+/* Błędy (X-y) */
+.errors {
+    position: absolute;
+    top: 130px; /* trochę niżej niż górna krawędź */
+    text-align: center;
+    font-size: 28px;
+}
+
+.errors.left { left: 30px; }
+.errors.right { right: 30px; }
+
+.errors-title {
+    margin-bottom: 6px;
+}
+
+.errors-team {
+    margin-bottom: 10px;
+}
+
+/* X jako obrazek */
+.x {
+    width: 175px;
+    display: none;
+}
+
+.x.active {
+    display: block;
+}
+
+/* Powitalny ekran */
+.welcome-screen {
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-size: 72px;
+
+    font-weight: bold;
+
+    color: #ffd400;
+
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+{
+  "Drużyna Alpha": {
+    "captain": "Jan Kowalski",
+    "contact": "123-456-789",
+    "players": [
+      "Jan Kowalski",
+      "Anna Nowak",
+      "Piotr Wiśniewski",
+      "Kacper Zieliński"
+    ]
+  },
+
+  "Drużyna Beta": {
+    "captain": "Mateusz Nowicki",
+    "contact": "999-111-222",
+    "players": [
+      "Mateusz Nowicki",
+      "Julia Kamińska",
+      "Michał Wójcik"
+    ]
+  }
+}

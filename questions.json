@@ -1,0 +1,2402 @@
+{
+  "Q001": {
+    "text": "Jakie słone przekąski często kupujemy",
+    "answers": [
+      {
+        "text": "Chipsy",
+        "points": 25
+      },
+      {
+        "text": "paluszki",
+        "points": 20
+      },
+      {
+        "text": "orzeszki",
+        "points": 15
+      },
+      {
+        "text": "popcorn",
+        "points": 10
+      },
+      {
+        "text": "krakersy",
+        "points": 5
+      }
+    ]
+  },
+  "Q002": {
+    "text": "Popularne smaki lodów",
+    "answers": [
+      {
+        "text": "waniliowy",
+        "points": 25
+      },
+      {
+        "text": "czekoladowy",
+        "points": 20
+      },
+      {
+        "text": "truskawkowy",
+        "points": 15
+      },
+      {
+        "text": "orzechowy",
+        "points": 10
+      },
+      {
+        "text": "śmietankowy",
+        "points": 5
+      }
+    ]
+  },
+  "Q003": {
+    "text": "Jakie smaki rozróżnia człowiek",
+    "answers": [
+      {
+        "text": "Słodki",
+        "points": 25
+      },
+      {
+        "text": "słony",
+        "points": 20
+      },
+      {
+        "text": "kwaśny",
+        "points": 15
+      },
+      {
+        "text": "gorzki",
+        "points": 10
+      },
+      {
+        "text": "ostry",
+        "points": 5
+      }
+    ]
+  },
+  "Q004": {
+    "text": "Jakie mogą być pierogi",
+    "answers": [
+      {
+        "text": "Z mięsem",
+        "points": 25
+      },
+      {
+        "text": "ruskie",
+        "points": 20
+      },
+      {
+        "text": "z kapustą i grzybami",
+        "points": 15
+      },
+      {
+        "text": "z truskawkami",
+        "points": 10
+      },
+      {
+        "text": "ze szpinakiem",
+        "points": 5
+      }
+    ]
+  },
+  "Q005": {
+    "text": "Jakie jadalne grzyby rosną w lesie",
+    "answers": [
+      {
+        "text": "Borowiki",
+        "points": 25
+      },
+      {
+        "text": "kanie",
+        "points": 20
+      },
+      {
+        "text": "kurki",
+        "points": 15
+      },
+      {
+        "text": "maślaki",
+        "points": 10
+      },
+      {
+        "text": "rydze",
+        "points": 5
+      }
+    ]
+  },
+  "Q006": {
+    "text": "Popularne batony",
+    "answers": [
+      {
+        "text": "Twix",
+        "points": 25
+      },
+      {
+        "text": "Snickers",
+        "points": 20
+      },
+      {
+        "text": "Mars",
+        "points": 15
+      },
+      {
+        "text": "Kit Kat",
+        "points": 10
+      },
+      {
+        "text": "Lion",
+        "points": 5
+      }
+    ]
+  },
+  "Q007": {
+    "text": "Rodzaje orzechów",
+    "answers": [
+      {
+        "text": "włoski",
+        "points": 25
+      },
+      {
+        "text": "laskowy",
+        "points": 20
+      },
+      {
+        "text": "ziemny",
+        "points": 15
+      },
+      {
+        "text": "nerkowca",
+        "points": 10
+      },
+      {
+        "text": "pistacja",
+        "points": 5
+      }
+    ]
+  },
+  "Q008": {
+    "text": "Co pijemy do śniadania",
+    "answers": [
+      {
+        "text": "Kawa",
+        "points": 25
+      },
+      {
+        "text": "herbata",
+        "points": 20
+      },
+      {
+        "text": "kakao",
+        "points": 15
+      },
+      {
+        "text": "sok",
+        "points": 10
+      },
+      {
+        "text": "mleko",
+        "points": 5
+      }
+    ]
+  },
+  "Q009": {
+    "text": "W jakiej postaci najczęściej spożywamy jajka",
+    "answers": [
+      {
+        "text": "Jajecznica",
+        "points": 25
+      },
+      {
+        "text": "na miękko",
+        "points": 20
+      },
+      {
+        "text": "na twardo",
+        "points": 15
+      },
+      {
+        "text": "sadzone",
+        "points": 10
+      },
+      {
+        "text": "omlet",
+        "points": 5
+      }
+    ]
+  },
+  "Q010": {
+    "text": "Warzywa na literę K",
+    "answers": [
+      {
+        "text": "kapusta",
+        "points": 25
+      },
+      {
+        "text": "kalafior",
+        "points": 20
+      },
+      {
+        "text": "kukurydza",
+        "points": 15
+      },
+      {
+        "text": "kalarepa",
+        "points": 10
+      },
+      {
+        "text": "kabaczek",
+        "points": 5
+      }
+    ]
+  },
+  "Q011": {
+    "text": "Wchodzi w skład włoszczyzny",
+    "answers": [
+      {
+        "text": "marchewka",
+        "points": 25
+      },
+      {
+        "text": "pietruszka",
+        "points": 20
+      },
+      {
+        "text": "por",
+        "points": 15
+      },
+      {
+        "text": "seler",
+        "points": 10
+      },
+      {
+        "text": "kapusta",
+        "points": 5
+      }
+    ]
+  },
+  "Q012": {
+    "text": "Z czym może być pączek",
+    "answers": [
+      {
+        "text": "Z marmoladą",
+        "points": 25
+      },
+      {
+        "text": "z czekoladą",
+        "points": 20
+      },
+      {
+        "text": "z adwokatem",
+        "points": 15
+      },
+      {
+        "text": "z karmelem",
+        "points": 10
+      },
+      {
+        "text": "z budyniem",
+        "points": 5
+      }
+    ]
+  },
+  "Q013": {
+    "text": "Nadzienie drożdżówki",
+    "answers": [
+      {
+        "text": "dżem",
+        "points": 25
+      },
+      {
+        "text": "ser",
+        "points": 20
+      },
+      {
+        "text": "budyń",
+        "points": 15
+      },
+      {
+        "text": "mak",
+        "points": 10
+      },
+      {
+        "text": "czekolada",
+        "points": 5
+      }
+    ]
+  },
+  "Q014": {
+    "text": "Owoce na literę M",
+    "answers": [
+      {
+        "text": "malina",
+        "points": 25
+      },
+      {
+        "text": "mandarynka",
+        "points": 20
+      },
+      {
+        "text": "morela",
+        "points": 15
+      },
+      {
+        "text": "mango",
+        "points": 10
+      },
+      {
+        "text": "melon",
+        "points": 5
+      }
+    ]
+  },
+  "Q015": {
+    "text": "Owoce na literę P",
+    "answers": [
+      {
+        "text": "pomarańcza",
+        "points": 25
+      },
+      {
+        "text": "poziomka",
+        "points": 20
+      },
+      {
+        "text": "porzeczka",
+        "points": 15
+      },
+      {
+        "text": "papaja",
+        "points": 10
+      },
+      {
+        "text": "pomelo",
+        "points": 5
+      }
+    ]
+  },
+  "Q016": {
+    "text": "Rodzaje makaronu",
+    "answers": [
+      {
+        "text": "spaghetti",
+        "points": 25
+      },
+      {
+        "text": "świderki",
+        "points": 20
+      },
+      {
+        "text": "rurki",
+        "points": 15
+      },
+      {
+        "text": "muszelki",
+        "points": 10
+      },
+      {
+        "text": "kokardki",
+        "points": 5
+      }
+    ]
+  },
+  "Q017": {
+    "text": "Zielone przyprawy",
+    "answers": [
+      {
+        "text": "bazylia",
+        "points": 25
+      },
+      {
+        "text": "oregano",
+        "points": 20
+      },
+      {
+        "text": "koperek",
+        "points": 15
+      },
+      {
+        "text": "natka pietruszki",
+        "points": 10
+      },
+      {
+        "text": "majeranek",
+        "points": 5
+      }
+    ]
+  },
+  "Q018": {
+    "text": "Podaj warzywa, które nakładamy na pizzę",
+    "answers": [
+      {
+        "text": "cebula",
+        "points": 25
+      },
+      {
+        "text": "pomidor",
+        "points": 20
+      },
+      {
+        "text": "papryka",
+        "points": 15
+      },
+      {
+        "text": "oliwki",
+        "points": 10
+      },
+      {
+        "text": "czosnek",
+        "points": 5
+      }
+    ]
+  },
+  "Q019": {
+    "text": "Jaka żywność występuje w kolorze żółtym",
+    "answers": [
+      {
+        "text": "Banan",
+        "points": 25
+      },
+      {
+        "text": "cytryna",
+        "points": 20
+      },
+      {
+        "text": "kukurydza",
+        "points": 15
+      },
+      {
+        "text": "ser",
+        "points": 10
+      },
+      {
+        "text": "papryka",
+        "points": 5
+      }
+    ]
+  },
+  "Q020": {
+    "text": "Czym smarujemy chleb",
+    "answers": [
+      {
+        "text": "Masłem",
+        "points": 25
+      },
+      {
+        "text": "margaryną",
+        "points": 20
+      },
+      {
+        "text": "dżemem",
+        "points": 15
+      },
+      {
+        "text": "kremem czekoladowym",
+        "points": 10
+      },
+      {
+        "text": "serkiem",
+        "points": 5
+      }
+    ]
+  },
+  "Q021": {
+    "text": "Co najczęściej jadamy na śniadanie",
+    "answers": [
+      {
+        "text": "Kanapki",
+        "points": 25
+      },
+      {
+        "text": "jajecznicę",
+        "points": 20
+      },
+      {
+        "text": "owsiankę",
+        "points": 15
+      },
+      {
+        "text": "tosty",
+        "points": 10
+      },
+      {
+        "text": "parówki",
+        "points": 5
+      }
+    ]
+  },
+  "Q022": {
+    "text": "Podaj nazwę przyprawy na literę K",
+    "answers": [
+      {
+        "text": "kolendra",
+        "points": 25
+      },
+      {
+        "text": "kurkuma",
+        "points": 20
+      },
+      {
+        "text": "koper",
+        "points": 15
+      },
+      {
+        "text": "kminek",
+        "points": 10
+      },
+      {
+        "text": "kardamon",
+        "points": 5
+      }
+    ]
+  },
+  "Q023": {
+    "text": "Jakie może być mleko",
+    "answers": [
+      {
+        "text": "Zsiadłe",
+        "points": 25
+      },
+      {
+        "text": "krowie",
+        "points": 20
+      },
+      {
+        "text": "kozie",
+        "points": 15
+      },
+      {
+        "text": "sojowe",
+        "points": 10
+      },
+      {
+        "text": "w proszku",
+        "points": 5
+      }
+    ]
+  },
+  "Q024": {
+    "text": "Jedzenie, które można kupić w puszce",
+    "answers": [
+      {
+        "text": "rybę",
+        "points": 25
+      },
+      {
+        "text": "kukurydzę",
+        "points": 20
+      },
+      {
+        "text": "pasztet",
+        "points": 15
+      },
+      {
+        "text": "groszek",
+        "points": 10
+      },
+      {
+        "text": "pomidory",
+        "points": 5
+      }
+    ]
+  },
+  "Q025": {
+    "text": "Jaka może być kasza",
+    "answers": [
+      {
+        "text": "Gryczana",
+        "points": 25
+      },
+      {
+        "text": "jaglana",
+        "points": 20
+      },
+      {
+        "text": "jęczmienna",
+        "points": 15
+      },
+      {
+        "text": "manna",
+        "points": 10
+      },
+      {
+        "text": "kuskus",
+        "points": 5
+      }
+    ]
+  },
+  "Q026": {
+    "text": "Rodzaje mąki",
+    "answers": [
+      {
+        "text": "pszenna",
+        "points": 25
+      },
+      {
+        "text": "ziemniaczana",
+        "points": 20
+      },
+      {
+        "text": "kukurydziana",
+        "points": 15
+      },
+      {
+        "text": "żytnia",
+        "points": 10
+      },
+      {
+        "text": "razowa",
+        "points": 5
+      }
+    ]
+  },
+  "Q027": {
+    "text": "Biała i sypka rzecz używana w kuchni",
+    "answers": [
+      {
+        "text": "cukier",
+        "points": 25
+      },
+      {
+        "text": "sól",
+        "points": 20
+      },
+      {
+        "text": "mąka",
+        "points": 15
+      },
+      {
+        "text": "proszek do pieczenia",
+        "points": 10
+      },
+      {
+        "text": "soda",
+        "points": 5
+      }
+    ]
+  },
+  "Q028": {
+    "text": "Najpopularniejsze potrawy określane jako „Fast-food” to",
+    "answers": [
+      {
+        "text": "hamburger",
+        "points": 25
+      },
+      {
+        "text": "pizza",
+        "points": 20
+      },
+      {
+        "text": "frytki",
+        "points": 15
+      },
+      {
+        "text": "zapiekanka",
+        "points": 10
+      },
+      {
+        "text": "kebab",
+        "points": 5
+      }
+    ]
+  },
+  "Q029": {
+    "text": "Czym można posłodzić herbatę",
+    "answers": [
+      {
+        "text": "cukrem",
+        "points": 25
+      },
+      {
+        "text": "miodem",
+        "points": 20
+      },
+      {
+        "text": "słodzikiem",
+        "points": 15
+      },
+      {
+        "text": "sokiem",
+        "points": 10
+      },
+      {
+        "text": "konfiturą",
+        "points": 5
+      }
+    ]
+  },
+  "Q030": {
+    "text": "Polska potrawa narodowa to",
+    "answers": [
+      {
+        "text": "pierogi",
+        "points": 25
+      },
+      {
+        "text": "bigos",
+        "points": 20
+      },
+      {
+        "text": "żurek",
+        "points": 15
+      },
+      {
+        "text": "rosół",
+        "points": 10
+      },
+      {
+        "text": "kotlet schabowy",
+        "points": 5
+      }
+    ]
+  },
+  "Q031": {
+    "text": "Najpopularniejsze ciasta",
+    "answers": [
+      {
+        "text": "szarlotka",
+        "points": 25
+      },
+      {
+        "text": "sernik",
+        "points": 20
+      },
+      {
+        "text": "makowiec",
+        "points": 15
+      },
+      {
+        "text": "napoleonka/kremówka",
+        "points": 10
+      },
+      {
+        "text": "piernik",
+        "points": 5
+      }
+    ]
+  },
+  "Q032": {
+    "text": "Czym można ozdobić tort",
+    "answers": [
+      {
+        "text": "Kremem",
+        "points": 25
+      },
+      {
+        "text": "owocami",
+        "points": 20
+      },
+      {
+        "text": "czekoladą",
+        "points": 15
+      },
+      {
+        "text": "świeczkami",
+        "points": 10
+      },
+      {
+        "text": "orzechami",
+        "points": 5
+      }
+    ]
+  },
+  "Q033": {
+    "text": "Co grillujemy",
+    "answers": [
+      {
+        "text": "Kiełbasę",
+        "points": 25
+      },
+      {
+        "text": "karkówkę",
+        "points": 20
+      },
+      {
+        "text": "kaszankę",
+        "points": 15
+      },
+      {
+        "text": "szaszłyki",
+        "points": 10
+      },
+      {
+        "text": "chleb",
+        "points": 5
+      }
+    ]
+  },
+  "Q034": {
+    "text": "Najczęściej spożywane ryby",
+    "answers": [
+      {
+        "text": "łosoś",
+        "points": 25
+      },
+      {
+        "text": "tuńczyk",
+        "points": 20
+      },
+      {
+        "text": "karp",
+        "points": 15
+      },
+      {
+        "text": "śledź",
+        "points": 10
+      },
+      {
+        "text": "makrela",
+        "points": 5
+      }
+    ]
+  },
+  "Q035": {
+    "text": "Jakie produkty można kupić w słoiku",
+    "answers": [
+      {
+        "text": "Dżem",
+        "points": 25
+      },
+      {
+        "text": "ogórki",
+        "points": 20
+      },
+      {
+        "text": "majonez",
+        "points": 15
+      },
+      {
+        "text": "miód",
+        "points": 10
+      },
+      {
+        "text": "musztardę",
+        "points": 5
+      }
+    ]
+  },
+  "Q036": {
+    "text": "Okrągłe warzywo",
+    "answers": [
+      {
+        "text": "seler",
+        "points": 25
+      },
+      {
+        "text": "cebula",
+        "points": 20
+      },
+      {
+        "text": "kapusta",
+        "points": 15
+      },
+      {
+        "text": "burak",
+        "points": 10
+      },
+      {
+        "text": "brukselka",
+        "points": 5
+      }
+    ]
+  },
+  "Q037": {
+    "text": "Flagi państw, na których występują tylko kolory biały i czerwony",
+    "answers": [
+      {
+        "text": "Polska",
+        "points": 25
+      },
+      {
+        "text": "Austria",
+        "points": 20
+      },
+      {
+        "text": "Szwajcaria",
+        "points": 15
+      },
+      {
+        "text": "Kanada",
+        "points": 10
+      },
+      {
+        "text": "Japonia",
+        "points": 5
+      }
+    ]
+  },
+  "Q038": {
+    "text": "Podaj państwo, którego nazwa kończy się na „-nia”",
+    "answers": [
+      {
+        "text": "Dania",
+        "points": 25
+      },
+      {
+        "text": "Hiszpania",
+        "points": 20
+      },
+      {
+        "text": "Estonia",
+        "points": 15
+      },
+      {
+        "text": "Rumunia",
+        "points": 10
+      },
+      {
+        "text": "Albania",
+        "points": 5
+      }
+    ]
+  },
+  "Q039": {
+    "text": "Kraje alpejskie",
+    "answers": [
+      {
+        "text": "Austria",
+        "points": 25
+      },
+      {
+        "text": "Szwajcaria",
+        "points": 20
+      },
+      {
+        "text": "Włochy",
+        "points": 15
+      },
+      {
+        "text": "Francja",
+        "points": 10
+      },
+      {
+        "text": "Niemcy",
+        "points": 5
+      }
+    ]
+  },
+  "Q040": {
+    "text": "Podaj kraj, w którym możemy znaleźć zabytkowe ruiny",
+    "answers": [
+      {
+        "text": "Grecja",
+        "points": 25
+      },
+      {
+        "text": "Egipt",
+        "points": 20
+      },
+      {
+        "text": "Włochy",
+        "points": 15
+      },
+      {
+        "text": "Chiny",
+        "points": 10
+      },
+      {
+        "text": "Turcja",
+        "points": 5
+      }
+    ]
+  },
+  "Q041": {
+    "text": "Polskie miasta na literę O",
+    "answers": [
+      {
+        "text": "Opole",
+        "points": 25
+      },
+      {
+        "text": "Olsztyn",
+        "points": 20
+      },
+      {
+        "text": "Ostrołęka",
+        "points": 15
+      },
+      {
+        "text": "Ostróda",
+        "points": 10
+      },
+      {
+        "text": "Otwock",
+        "points": 5
+      }
+    ]
+  },
+  "Q042": {
+    "text": "Państwa na literę C",
+    "answers": [
+      {
+        "text": "Czechy",
+        "points": 25
+      },
+      {
+        "text": "Chiny",
+        "points": 20
+      },
+      {
+        "text": "Chorwacja",
+        "points": 15
+      },
+      {
+        "text": "Cypr",
+        "points": 10
+      },
+      {
+        "text": "Chile",
+        "points": 5
+      }
+    ]
+  },
+  "Q043": {
+    "text": "Państwa na literę K",
+    "answers": [
+      {
+        "text": "Kuba",
+        "points": 25
+      },
+      {
+        "text": "Kanada",
+        "points": 20
+      },
+      {
+        "text": "Kolumbia",
+        "points": 15
+      },
+      {
+        "text": "Kazachstan",
+        "points": 10
+      },
+      {
+        "text": "Kambodża",
+        "points": 5
+      }
+    ]
+  },
+  "Q044": {
+    "text": "Polskie miasta na literę S",
+    "answers": [
+      {
+        "text": "Siedlce",
+        "points": 25
+      },
+      {
+        "text": "Sosnowiec",
+        "points": 20
+      },
+      {
+        "text": "Sandomierz",
+        "points": 15
+      },
+      {
+        "text": "Sanok",
+        "points": 10
+      },
+      {
+        "text": "Szczyrk",
+        "points": 5
+      }
+    ]
+  },
+  "Q045": {
+    "text": "Państwa na literę S",
+    "answers": [
+      {
+        "text": "Serbia",
+        "points": 25
+      },
+      {
+        "text": "Słowacja",
+        "points": 20
+      },
+      {
+        "text": "Słowenia",
+        "points": 15
+      },
+      {
+        "text": "Szwecja",
+        "points": 10
+      },
+      {
+        "text": "Szwajcaria",
+        "points": 5
+      }
+    ]
+  },
+  "Q046": {
+    "text": "Państwa na literę W",
+    "answers": [
+      {
+        "text": "Włochy",
+        "points": 25
+      },
+      {
+        "text": "Wielka Brytania",
+        "points": 20
+      },
+      {
+        "text": "Wietnam",
+        "points": 15
+      },
+      {
+        "text": "Węgry",
+        "points": 10
+      },
+      {
+        "text": "Wenezuela",
+        "points": 5
+      }
+    ]
+  },
+  "Q047": {
+    "text": "Polskie miasta na literę K",
+    "answers": [
+      {
+        "text": "Kraków",
+        "points": 25
+      },
+      {
+        "text": "Kołobrzeg",
+        "points": 20
+      },
+      {
+        "text": "Katowice",
+        "points": 15
+      },
+      {
+        "text": "Kielce",
+        "points": 10
+      },
+      {
+        "text": "Kalisz",
+        "points": 5
+      }
+    ]
+  },
+  "Q048": {
+    "text": "Czego lekarze każą nam unikać",
+    "answers": [
+      {
+        "text": "alkoholu",
+        "points": 25
+      },
+      {
+        "text": "stresu",
+        "points": 20
+      },
+      {
+        "text": "soli",
+        "points": 15
+      },
+      {
+        "text": "papierosów",
+        "points": 10
+      },
+      {
+        "text": "tłuszczu",
+        "points": 5
+      }
+    ]
+  },
+  "Q049": {
+    "text": "Co robi fryzjer z włosami",
+    "answers": [
+      {
+        "text": "Obcina",
+        "points": 25
+      },
+      {
+        "text": "farbuje",
+        "points": 20
+      },
+      {
+        "text": "stylizuje",
+        "points": 15
+      },
+      {
+        "text": "myje",
+        "points": 10
+      },
+      {
+        "text": "suszy",
+        "points": 5
+      }
+    ]
+  },
+  "Q050": {
+    "text": "Co kupujemy w pasmanterii",
+    "answers": [
+      {
+        "text": "Nici",
+        "points": 25
+      },
+      {
+        "text": "guziki",
+        "points": 20
+      },
+      {
+        "text": "igły",
+        "points": 15
+      },
+      {
+        "text": "wstążki",
+        "points": 10
+      },
+      {
+        "text": "agrafki",
+        "points": 5
+      }
+    ]
+  },
+  "Q051": {
+    "text": "Kto może skorzystać z biletu ulgowego",
+    "answers": [
+      {
+        "text": "Uczeń",
+        "points": 25
+      },
+      {
+        "text": "student",
+        "points": 20
+      },
+      {
+        "text": "emeryt",
+        "points": 15
+      },
+      {
+        "text": "osoba niepełnosprawna",
+        "points": 10
+      },
+      {
+        "text": "rencista",
+        "points": 5
+      }
+    ]
+  },
+  "Q052": {
+    "text": "Co kupujemy, gdy wprowadzamy się do nowego mieszkania",
+    "answers": [
+      {
+        "text": "łóżko",
+        "points": 25
+      },
+      {
+        "text": "stół",
+        "points": 20
+      },
+      {
+        "text": "lodówka",
+        "points": 15
+      },
+      {
+        "text": "telewizor",
+        "points": 10
+      },
+      {
+        "text": "pralka",
+        "points": 5
+      }
+    ]
+  },
+  "Q053": {
+    "text": "Co może poprawić nasz nastrój",
+    "answers": [
+      {
+        "text": "Muzyka",
+        "points": 25
+      },
+      {
+        "text": "zakupy",
+        "points": 20
+      },
+      {
+        "text": "spacer",
+        "points": 15
+      },
+      {
+        "text": "spotkanie",
+        "points": 10
+      },
+      {
+        "text": "pogoda",
+        "points": 5
+      }
+    ]
+  },
+  "Q054": {
+    "text": "Jakie rzeczy mamy przy łóżku",
+    "answers": [
+      {
+        "text": "Stolik",
+        "points": 25
+      },
+      {
+        "text": "lampka nocna",
+        "points": 20
+      },
+      {
+        "text": "kapcie",
+        "points": 15
+      },
+      {
+        "text": "telefon",
+        "points": 10
+      },
+      {
+        "text": "okulary",
+        "points": 5
+      }
+    ]
+  },
+  "Q055": {
+    "text": "Co ludzie często gubią",
+    "answers": [
+      {
+        "text": "telefon",
+        "points": 25
+      },
+      {
+        "text": "klucze",
+        "points": 20
+      },
+      {
+        "text": "portfel",
+        "points": 15
+      },
+      {
+        "text": "rękawiczki",
+        "points": 10
+      },
+      {
+        "text": "okulary",
+        "points": 5
+      }
+    ]
+  },
+  "Q056": {
+    "text": "Co nosimy w portfelu",
+    "answers": [
+      {
+        "text": "Pieniądze",
+        "points": 25
+      },
+      {
+        "text": "dokumenty",
+        "points": 20
+      },
+      {
+        "text": "karty",
+        "points": 15
+      },
+      {
+        "text": "bilety",
+        "points": 10
+      },
+      {
+        "text": "zdjęcia",
+        "points": 5
+      }
+    ]
+  },
+  "Q057": {
+    "text": "Znane angielskie kluby piłkarskie",
+    "answers": [
+      {
+        "text": "Manchester Unites",
+        "points": 25
+      },
+      {
+        "text": "Arsenal Londyn",
+        "points": 20
+      },
+      {
+        "text": "Liverpool F.C.",
+        "points": 15
+      },
+      {
+        "text": "Manchester City",
+        "points": 10
+      },
+      {
+        "text": "Chelsea Londyn",
+        "points": 5
+      }
+    ]
+  },
+  "Q058": {
+    "text": "Zespoły F1",
+    "answers": [
+      {
+        "text": "Red Bull",
+        "points": 25
+      },
+      {
+        "text": "McLaren",
+        "points": 20
+      },
+      {
+        "text": "Ferrari",
+        "points": 15
+      },
+      {
+        "text": "Mercedes",
+        "points": 10
+      },
+      {
+        "text": "Aston Martin",
+        "points": 5
+      }
+    ]
+  },
+  "Q059": {
+    "text": "Kultowe dobranocki",
+    "answers": [
+      {
+        "text": "Smerfy",
+        "points": 25
+      },
+      {
+        "text": "Gumisie",
+        "points": 20
+      },
+      {
+        "text": "Miś Uszatek",
+        "points": 15
+      },
+      {
+        "text": "Bolek i Lolek",
+        "points": 10
+      },
+      {
+        "text": "Reksio",
+        "points": 5
+      }
+    ]
+  },
+  "Q060": {
+    "text": "Wyrazy, które czytane od tyłu brzmią tak samo",
+    "answers": [
+      {
+        "text": "kajak",
+        "points": 25
+      },
+      {
+        "text": "oko",
+        "points": 20
+      },
+      {
+        "text": "Anna",
+        "points": 15
+      },
+      {
+        "text": "potop",
+        "points": 10
+      },
+      {
+        "text": "zakaz",
+        "points": 5
+      }
+    ]
+  },
+  "Q061": {
+    "text": "Inaczej żart",
+    "answers": [
+      {
+        "text": "kawał",
+        "points": 25
+      },
+      {
+        "text": "dowcip",
+        "points": 20
+      },
+      {
+        "text": "suchar",
+        "points": 15
+      },
+      {
+        "text": "psikus",
+        "points": 10
+      },
+      {
+        "text": "anegdota",
+        "points": 5
+      }
+    ]
+  },
+  "Q062": {
+    "text": "Co możemy rozwiązać",
+    "answers": [
+      {
+        "text": "Sznurówki",
+        "points": 25
+      },
+      {
+        "text": "zadanie",
+        "points": 20
+      },
+      {
+        "text": "zagadkę",
+        "points": 15
+      },
+      {
+        "text": "umowę",
+        "points": 10
+      },
+      {
+        "text": "problem",
+        "points": 5
+      }
+    ]
+  },
+  "Q063": {
+    "text": "Co nie ma skrzydeł, a leci",
+    "answers": [
+      {
+        "text": "Balon",
+        "points": 25
+      },
+      {
+        "text": "czas",
+        "points": 20
+      },
+      {
+        "text": "muzyka",
+        "points": 15
+      },
+      {
+        "text": "latawiec",
+        "points": 10
+      },
+      {
+        "text": "krew z nosa",
+        "points": 5
+      }
+    ]
+  },
+  "Q064": {
+    "text": "Na czym można grać",
+    "answers": [
+      {
+        "text": "Na komputerze",
+        "points": 25
+      },
+      {
+        "text": "na instrumencie",
+        "points": 20
+      },
+      {
+        "text": "na nerwach",
+        "points": 15
+      },
+      {
+        "text": "na scenie",
+        "points": 10
+      },
+      {
+        "text": "na telefonie",
+        "points": 5
+      }
+    ]
+  },
+  "Q065": {
+    "text": "Co według legend i popkultury może zaszkodzić wampirom",
+    "answers": [
+      {
+        "text": "Czosnek",
+        "points": 25
+      },
+      {
+        "text": "światło",
+        "points": 20
+      },
+      {
+        "text": "drewniany kołek",
+        "points": 15
+      },
+      {
+        "text": "krzyż",
+        "points": 10
+      },
+      {
+        "text": "srebro",
+        "points": 5
+      }
+    ]
+  },
+  "Q066": {
+    "text": "Bogowie greccy",
+    "answers": [
+      {
+        "text": "Zeus",
+        "points": 25
+      },
+      {
+        "text": "Atena",
+        "points": 20
+      },
+      {
+        "text": "Posejdon",
+        "points": 15
+      },
+      {
+        "text": "Afrodyta",
+        "points": 10
+      },
+      {
+        "text": "Apollo",
+        "points": 5
+      }
+    ]
+  },
+  "Q067": {
+    "text": "Z czego można wróżyć",
+    "answers": [
+      {
+        "text": "Z kart",
+        "points": 25
+      },
+      {
+        "text": "z ręki",
+        "points": 20
+      },
+      {
+        "text": "z fusów",
+        "points": 15
+      },
+      {
+        "text": "ze szklanej kuli",
+        "points": 10
+      },
+      {
+        "text": "z wosku",
+        "points": 5
+      }
+    ]
+  },
+  "Q068": {
+    "text": "Tradycje wielkanocne",
+    "answers": [
+      {
+        "text": "święconka",
+        "points": 25
+      },
+      {
+        "text": "śmigus-dyngus",
+        "points": 20
+      },
+      {
+        "text": "dzielenie się jajkiem",
+        "points": 15
+      },
+      {
+        "text": "pisanki",
+        "points": 10
+      },
+      {
+        "text": "Droga Krzyżowa",
+        "points": 5
+      }
+    ]
+  },
+  "Q069": {
+    "text": "Wróżby andrzejkowe",
+    "answers": [
+      {
+        "text": "lanie wosku",
+        "points": 25
+      },
+      {
+        "text": "ustawianie butów",
+        "points": 20
+      },
+      {
+        "text": "przekłuwanie imion",
+        "points": 15
+      },
+      {
+        "text": "obierki z jabłek",
+        "points": 10
+      },
+      {
+        "text": "pływające świeczki",
+        "points": 5
+      }
+    ]
+  },
+  "Q070": {
+    "text": "Japońskie marki samochodów",
+    "answers": [
+      {
+        "text": "Toyota",
+        "points": 25
+      },
+      {
+        "text": "Honda",
+        "points": 20
+      },
+      {
+        "text": "Mazda",
+        "points": 15
+      },
+      {
+        "text": "Nissan",
+        "points": 10
+      },
+      {
+        "text": "Suzuki",
+        "points": 5
+      }
+    ]
+  },
+  "Q071": {
+    "text": "Część garderoby na literę B",
+    "answers": [
+      {
+        "text": "buty",
+        "points": 25
+      },
+      {
+        "text": "bluzka",
+        "points": 20
+      },
+      {
+        "text": "bluza",
+        "points": 15
+      },
+      {
+        "text": "bielizna",
+        "points": 10
+      },
+      {
+        "text": "beret",
+        "points": 5
+      }
+    ]
+  },
+  "Q072": {
+    "text": "Część garderoby na literę K",
+    "answers": [
+      {
+        "text": "koszula",
+        "points": 25
+      },
+      {
+        "text": "krawat",
+        "points": 20
+      },
+      {
+        "text": "kurtka",
+        "points": 15
+      },
+      {
+        "text": "klapki",
+        "points": 10
+      },
+      {
+        "text": "kozaki",
+        "points": 5
+      }
+    ]
+  },
+  "Q073": {
+    "text": "Podaj znaną markę butów sportowych",
+    "answers": [
+      {
+        "text": "Nike",
+        "points": 25
+      },
+      {
+        "text": "Adidas",
+        "points": 20
+      },
+      {
+        "text": "Reebok",
+        "points": 15
+      },
+      {
+        "text": "New Balance",
+        "points": 10
+      },
+      {
+        "text": "Converse",
+        "points": 5
+      }
+    ]
+  },
+  "Q074": {
+    "text": "Największe przeboje Maryli Rodowicz",
+    "answers": [
+      {
+        "text": "Małgośka",
+        "points": 25
+      },
+      {
+        "text": "Niech żyje bal",
+        "points": 20
+      },
+      {
+        "text": "Kolorowe jarmarki",
+        "points": 15
+      },
+      {
+        "text": "Sing SIng",
+        "points": 10
+      },
+      {
+        "text": "Ale to już było",
+        "points": 5
+      }
+    ]
+  },
+  "Q075": {
+    "text": "Największe hity zespołu Golec uOrkiestra",
+    "answers": [
+      {
+        "text": "Ściernisko",
+        "points": 25
+      },
+      {
+        "text": "Lornetka",
+        "points": 20
+      },
+      {
+        "text": "Słodycze",
+        "points": 15
+      },
+      {
+        "text": "Pędzą konie",
+        "points": 10
+      },
+      {
+        "text": "Crazy is my life",
+        "points": 5
+      }
+    ]
+  },
+  "Q076": {
+    "text": "Coś czarnego",
+    "answers": [
+      {
+        "text": "humor",
+        "points": 25
+      },
+      {
+        "text": "dziura",
+        "points": 20
+      },
+      {
+        "text": "kawa",
+        "points": 15
+      },
+      {
+        "text": "włosy",
+        "points": 10
+      },
+      {
+        "text": "asfalt",
+        "points": 5
+      }
+    ]
+  },
+  "Q077": {
+    "text": "Atrybuty rycerza",
+    "answers": [
+      {
+        "text": "miecz",
+        "points": 25
+      },
+      {
+        "text": "tarcza",
+        "points": 20
+      },
+      {
+        "text": "zbroja",
+        "points": 15
+      },
+      {
+        "text": "herb",
+        "points": 10
+      },
+      {
+        "text": "koń",
+        "points": 5
+      }
+    ]
+  },
+  "Q078": {
+    "text": "Słynne zamki w Polsce",
+    "answers": [
+      {
+        "text": "w Malborku",
+        "points": 25
+      },
+      {
+        "text": "Królewski w Warszawie",
+        "points": 20
+      },
+      {
+        "text": "w Mosznej",
+        "points": 15
+      },
+      {
+        "text": "Ogrodzieniec",
+        "points": 10
+      },
+      {
+        "text": "w Będzinie",
+        "points": 5
+      }
+    ]
+  },
+  "Q079": {
+    "text": "Słynne polskie legendy",
+    "answers": [
+      {
+        "text": "o Lechu Czechu i Rusie",
+        "points": 25
+      },
+      {
+        "text": "o Smoku Wawelskim",
+        "points": 20
+      },
+      {
+        "text": "o Bazyliszku",
+        "points": 15
+      },
+      {
+        "text": "o Popielu",
+        "points": 10
+      },
+      {
+        "text": "o Warsie i Sawie",
+        "points": 5
+      }
+    ]
+  },
+  "Q080": {
+    "text": "Symbole Krakowa",
+    "answers": [
+      {
+        "text": "smok wawelski",
+        "points": 25
+      },
+      {
+        "text": "Wawel",
+        "points": 20
+      },
+      {
+        "text": "Sukiennice",
+        "points": 15
+      },
+      {
+        "text": "Kościół Mariacki",
+        "points": 10
+      },
+      {
+        "text": "Lajkonik",
+        "points": 5
+      }
+    ]
+  },
+  "Q081": {
+    "text": "Rzeczy, z których słynie Szwajcaria",
+    "answers": [
+      {
+        "text": "zegarki",
+        "points": 25
+      },
+      {
+        "text": "sery",
+        "points": 20
+      },
+      {
+        "text": "czekolada",
+        "points": 15
+      },
+      {
+        "text": "góry",
+        "points": 10
+      },
+      {
+        "text": "banki",
+        "points": 5
+      }
+    ]
+  },
+  "Q082": {
+    "text": "Co możemy znaleźć na placu zabaw",
+    "answers": [
+      {
+        "text": "Huśtawkę",
+        "points": 25
+      },
+      {
+        "text": "piaskownicę",
+        "points": 20
+      },
+      {
+        "text": "zjeżdżalnię",
+        "points": 15
+      },
+      {
+        "text": "karuzelę",
+        "points": 10
+      },
+      {
+        "text": "zabawki",
+        "points": 5
+      }
+    ]
+  },
+  "Q083": {
+    "text": "Służy do pisania",
+    "answers": [
+      {
+        "text": "długopis",
+        "points": 25
+      },
+      {
+        "text": "pióro",
+        "points": 20
+      },
+      {
+        "text": "pisak",
+        "points": 15
+      },
+      {
+        "text": "ołówek",
+        "points": 10
+      },
+      {
+        "text": "kreda",
+        "points": 5
+      }
+    ]
+  },
+  "Q084": {
+    "text": "Popularne portale społecznościowe",
+    "answers": [
+      {
+        "text": "Facebook",
+        "points": 25
+      },
+      {
+        "text": "Instagram",
+        "points": 20
+      },
+      {
+        "text": "Twitter",
+        "points": 15
+      },
+      {
+        "text": "YouTube",
+        "points": 10
+      },
+      {
+        "text": "Pinterest",
+        "points": 5
+      }
+    ]
+  },
+  "Q085": {
+    "text": "Zjawiska widoczne na niebie",
+    "answers": [
+      {
+        "text": "tęcza",
+        "points": 25
+      },
+      {
+        "text": "błyskawica",
+        "points": 20
+      },
+      {
+        "text": "zachód słońca",
+        "points": 15
+      },
+      {
+        "text": "wschód słońca",
+        "points": 10
+      },
+      {
+        "text": "zorza polarna",
+        "points": 5
+      }
+    ]
+  },
+  "Q086": {
+    "text": "Dział matematyki",
+    "answers": [
+      {
+        "text": "arytmetyka",
+        "points": 25
+      },
+      {
+        "text": "geometria",
+        "points": 20
+      },
+      {
+        "text": "algebra",
+        "points": 15
+      },
+      {
+        "text": "analiza",
+        "points": 10
+      },
+      {
+        "text": "trygonometria",
+        "points": 5
+      }
+    ]
+  },
+  "Q087": {
+    "text": "Sieci Fast Food",
+    "answers": [
+      {
+        "text": "McDonald",
+        "points": 25
+      },
+      {
+        "text": "KFC",
+        "points": 20
+      },
+      {
+        "text": "Burger King",
+        "points": 15
+      },
+      {
+        "text": "Popeyes",
+        "points": 10
+      },
+      {
+        "text": "Pizza Hut",
+        "points": 5
+      }
+    ]
+  },
+  "Q088": {
+    "text": "Drzewo liściaste",
+    "answers": [
+      {
+        "text": "klon",
+        "points": 25
+      },
+      {
+        "text": "lipa",
+        "points": 20
+      },
+      {
+        "text": "dąb",
+        "points": 15
+      },
+      {
+        "text": "brzoza",
+        "points": 10
+      },
+      {
+        "text": "wierzba",
+        "points": 5
+      }
+    ]
+  },
+  "Q089": {
+    "text": "Drzewo iglaste",
+    "answers": [
+      {
+        "text": "świerk",
+        "points": 25
+      },
+      {
+        "text": "sosna",
+        "points": 20
+      },
+      {
+        "text": "jodła",
+        "points": 15
+      },
+      {
+        "text": "modrzew",
+        "points": 10
+      },
+      {
+        "text": "cis",
+        "points": 5
+      }
+    ]
+  },
+  "Q090": {
+    "text": "Mało popularny język europejski",
+    "answers": [
+      {
+        "text": "węgierski",
+        "points": 25
+      },
+      {
+        "text": "holenderski",
+        "points": 20
+      },
+      {
+        "text": "estoński",
+        "points": 15
+      },
+      {
+        "text": "bułgarski",
+        "points": 10
+      },
+      {
+        "text": "fiński",
+        "points": 5
+      }
+    ]
+  },
+  "Q091": {
+    "text": "Okazja do założenia garnituru",
+    "answers": [
+      {
+        "text": "ślub",
+        "points": 25
+      },
+      {
+        "text": "matura",
+        "points": 20
+      },
+      {
+        "text": "studniówka",
+        "points": 15
+      },
+      {
+        "text": "pogrzeb",
+        "points": 10
+      },
+      {
+        "text": "chrzciny",
+        "points": 5
+      }
+    ]
+  },
+  "Q092": {
+    "text": "Polskie miasta, w których jeżdżą tramwaje",
+    "answers": [
+      {
+        "text": "Warszawa",
+        "points": 25
+      },
+      {
+        "text": "Kraków",
+        "points": 20
+      },
+      {
+        "text": "Wrocław",
+        "points": 15
+      },
+      {
+        "text": "Katowice",
+        "points": 10
+      },
+      {
+        "text": "Poznań",
+        "points": 5
+      }
+    ]
+  },
+  "Q093": {
+    "text": "Zawód na literę M",
+    "answers": [
+      {
+        "text": "mechanik",
+        "points": 25
+      },
+      {
+        "text": "murarz",
+        "points": 20
+      },
+      {
+        "text": "malarz",
+        "points": 15
+      },
+      {
+        "text": "masażysta",
+        "points": 10
+      },
+      {
+        "text": "maszynista",
+        "points": 5
+      }
+    ]
+  },
+  "Q094": {
+    "text": "Znane polskie seriale",
+    "answers": [
+      {
+        "text": "Klan",
+        "points": 25
+      },
+      {
+        "text": "Pierwsza Miłość",
+        "points": 20
+      },
+      {
+        "text": "Na Wspólnej",
+        "points": 15
+      },
+      {
+        "text": "Ukryta prawda",
+        "points": 10
+      },
+      {
+        "text": "Na dobre i na złe",
+        "points": 5
+      }
+    ]
+  },
+  "Q095": {
+    "text": "Zwierzę spotykane w ZOO",
+    "answers": [
+      {
+        "text": "lew",
+        "points": 25
+      },
+      {
+        "text": "tygrys",
+        "points": 20
+      },
+      {
+        "text": "słoń",
+        "points": 15
+      },
+      {
+        "text": "żyrafa",
+        "points": 10
+      },
+      {
+        "text": "małpa",
+        "points": 5
+      }
+    ]
+  },
+  "Q096": {
+    "text": "Więcej niż jedno zwierze to",
+    "answers": [
+      {
+        "text": "lama",
+        "points": 25
+      },
+      {
+        "text": "owca",
+        "points": 20
+      },
+      {
+        "text": "stado",
+        "points": 15
+      },
+      {
+        "text": "wataha",
+        "points": 10
+      },
+      {
+        "text": "ławica",
+        "points": 5
+      }
+    ]
+  }
+}
