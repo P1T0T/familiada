@@ -40,7 +40,7 @@
         "points": 15
       },
       {
-        "text": "orzechowy",
+        "text": "słony karmel",
         "points": 10
       },
       {
@@ -586,11 +586,11 @@
         "points": 20
       },
       {
-        "text": "pasztet",
+        "text": "groszek",
         "points": 15
       },
       {
-        "text": "groszek",
+        "text": "pasztet",
         "points": 10
       },
       {
@@ -607,11 +607,11 @@
         "points": 25
       },
       {
-        "text": "jaglana",
+        "text": "jęczmienna",
         "points": 20
       },
       {
-        "text": "jęczmienna",
+        "text": "jaglana",
         "points": 15
       },
       {
@@ -1403,7 +1403,7 @@
     "text": "Znane angielskie kluby piłkarskie",
     "answers": [
       {
-        "text": "Manchester Unites",
+        "text": "Manchester United",
         "points": 25
       },
       {
@@ -1461,7 +1461,7 @@
         "points": 20
       },
       {
-        "text": "Miś Uszatek",
+        "text": "Reksio",
         "points": 15
       },
       {
@@ -1469,7 +1469,7 @@
         "points": 10
       },
       {
-        "text": "Reksio",
+        "text": "Kubuś Puchatek",
         "points": 5
       }
     ]
@@ -2086,7 +2086,7 @@
         "points": 20
       },
       {
-        "text": "Twitter",
+        "text": "X",
         "points": 15
       },
       {
@@ -2332,7 +2332,7 @@
         "points": 25
       },
       {
-        "text": "Pierwsza Miłość",
+        "text": "M jak miłość",
         "points": 20
       },
       {

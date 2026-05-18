@@ -1,22 +1,147 @@
 {
-  "Drużyna Alpha": {
-    "captain": "Jan Kowalski",
-    "contact": "123-456-789",
+  "1LA": {
+    "captain": "IGA FILIPOWICZ",
+    "contact": 503437178,
     "players": [
-      "Jan Kowalski",
-      "Anna Nowak",
-      "Piotr Wiśniewski",
-      "Kacper Zieliński"
+      "KLARA ZACHARJASIEWICZ",
+      "KAMIL LUBASZKA"
     ]
   },
 
-  "Drużyna Beta": {
-    "captain": "Mateusz Nowicki",
-    "contact": "999-111-222",
+  "2LA": {
+    "captain": "OLIWIA WINEK",
+    "contact": 606813773,
     "players": [
-      "Mateusz Nowicki",
-      "Julia Kamińska",
-      "Michał Wójcik"
+      "KAMILA MIAZGA",
+      "OLIWIER MAGDZIARZ"
+    ]
+  },
+  "3LA": {
+    "captain": "TOMASZ PIOTR BUGAŁA",
+    "contact": 530331634,
+    "players": [
+      "JULIA KOWALSKA",
+      "KAROL KOMOSA"
+    ]
+  },
+  "3LB": {
+    "captain": "ALEKSANDER KAMIŃSKI",
+    "contact": 509950817,
+    "players": [
+      "MATEUSZ STO…",
+      "SZYMON SŁOWIŃSKI"
+    ]
+  },
+  "1TA": {
+    "captain": "ERWIN KUŚMIERCZYK",
+    "contact": 733747457,
+    "players": [
+      "SZYMON WOLOMIANSKI",
+      "BARTOSZ SKRZYPKOWIAK"
+    ]
+  },
+  "1TC": {
+    "captain": "OLAF TWARDOWSKI",
+    "contact": 731231499,
+    "players": [
+      "JAN ŚLUSARCZYK",
+      "BORYS KARP"
+    ]
+  },
+  "1TD": {
+    "captain": "BARTŁOMIEJ JÓŹWIK",
+    "contact": 517119361,
+    "players": [
+      "RADOSŁAW ZAKRZEWSKI",
+      "WITOLD TYCZ"
+    ]
+  },
+  "1TI": {
+    "captain": "JAN HEINE",
+    "contact": 593037445,
+    "players": [
+      "DAWID DARAŻ",
+      "WIKTOR ZGIEB"
+    ]
+  },
+  "2TA": {
+    "captain": "BARTŁOMIEJ CHMIELEWSKI",
+    "contact": 737881669,
+    "players": [
+      "OLGIERD STYCZEWSKI",
+      "ADRIAN PRÓCHNICKI"
+    ]
+  },
+  "2TC": {
+    "captain": "WOJCIECH DOMINIAK",
+    "contact": 515257005,
+    "players": [
+      "FILIP PIASECKI",
+      "DARIUSZ TUCHALSKI"
+    ]
+  },
+  "2TI": {
+    "captain": "BENJAMIN STEC",
+    "contact": 887600701,
+    "players": [
+      "FILIP ZYCH",
+      "ADAM TRZASKALSKI"
+    ]
+  },
+  "3TA": {
+    "captain": "ADAM GUTASKI",
+    "contact": 699828201,
+    "players": [
+      "MICHAŁ MAŁCZYK",
+      "FILIP TOMCZYK"
+    ]
+  },
+  "3TC": {
+    "captain": "IGNACY JANICKI",
+    "contact": 539620019,
+    "players": [
+      "TOMASZ SAJNA",
+      "KRZYSZTOF KOLEKWIAK"
+    ]
+  },
+  "3TD": {
+    "captain": "ANTHONY KWIATEK",
+    "contact": 696016636,
+    "players": [
+      "DARIUSZ WOLOWIAK",
+      "DOMINIK SOCHACKI"
+    ]
+  },
+  "3TI": {
+    "captain": "ANTEK FALENCIAK",
+    "contact": 513876594,
+    "players": [
+      "ADAM KUDŁA",
+      "SZYMON KLUJ"
+    ]
+  },
+  "4TA": {
+    "captain": "KACPER KUBACKI",
+    "contact": 697555001,
+    "players": [
+      "TOMASZ GÓRSKI",
+      "JAN STEINHAGEN"
+    ]
+  },
+  "4TD": {
+    "captain": "FILIP CHOJNOWSKI",
+    "contact": 882582987,
+    "players": [
+      "MICHAŁ SAJAN",
+      "MICHAŁ INUDLIŃSKI"
+    ]
+  },
+  "4TI": {
+    "captain": "ANTONI ZIÓŁEK",
+    "contact": 519518915,
+    "players": [
+      "JAKUB KOWALCZYK",
+      "KRZYSZTOF KULIG"
     ]
   }
 }
