@@ -3,19 +3,24 @@
     "text": "Jakie słone przekąski często kupujemy",
     "answers": [
       {
-        "text": "Chipsy"
+        "text": "Chipsy",
+        "points": 25
       },
       {
-        "text": "paluszki"
+        "text": "paluszki",
+        "points": 20
       },
       {
-        "text": "orzeszki"
+        "text": "orzeszki",
+        "points": 15
       },
       {
-        "text": "popcorn"
+        "text": "popcorn",
+        "points": 10
       },
       {
-        "text": "krakersy"
+        "text": "krakersy",
+        "points": 5
       }
     ]
   },
@@ -23,19 +28,24 @@
     "text": "Popularne smaki lodów",
     "answers": [
       {
-        "text": "waniliowy"
+        "text": "waniliowy",
+        "points": 25
       },
       {
-        "text": "czekoladowy"
+        "text": "czekoladowy",
+        "points": 20
       },
       {
-        "text": "truskawkowy"
+        "text": "truskawkowy",
+        "points": 15
       },
       {
-        "text": "słony karmel"
+        "text": "słony karmel",
+        "points": 10
       },
       {
-        "text": "śmietankowy"
+        "text": "śmietankowy",
+        "points": 5
       }
     ]
   },
@@ -43,19 +53,24 @@
     "text": "Jakie mogą być pierogi",
     "answers": [
       {
-        "text": "Z mięsem"
+        "text": "Z mięsem",
+        "points": 25
       },
       {
-        "text": "ruskie"
+        "text": "ruskie",
+        "points": 20
       },
       {
-        "text": "z kapustą i grzybami"
+        "text": "z kapustą i grzybami",
+        "points": 15
       },
       {
-        "text": "z truskawkami"
+        "text": "z truskawkami",
+        "points": 10
       },
       {
-        "text": "ze szpinakiem"
+        "text": "ze szpinakiem",
+        "points": 5
       }
     ]
   },
@@ -63,19 +78,24 @@
     "text": "Jakie jadalne grzyby rosną w lesie",
     "answers": [
       {
-        "text": "Borowiki"
+        "text": "Borowiki",
+        "points": 25
       },
       {
-        "text": "kanie"
+        "text": "kanie",
+        "points": 20
       },
       {
-        "text": "kurki"
+        "text": "kurki",
+        "points": 15
       },
       {
-        "text": "maślaki"
+        "text": "maślaki",
+        "points": 10
       },
       {
-        "text": "rydze"
+        "text": "rydze",
+        "points": 5
       }
     ]
   },
@@ -83,19 +103,24 @@
     "text": "Rodzaje orzechów",
     "answers": [
       {
-        "text": "włoski"
+        "text": "włoski",
+        "points": 25
       },
       {
-        "text": "laskowy"
+        "text": "laskowy",
+        "points": 20
       },
       {
-        "text": "ziemny"
+        "text": "ziemny",
+        "points": 15
       },
       {
-        "text": "nerkowca"
+        "text": "nerkowca",
+        "points": 10
       },
       {
-        "text": "pistacja"
+        "text": "pistacja",
+        "points": 5
       }
     ]
   },
@@ -103,19 +128,24 @@
     "text": "Rodzaje makaronu",
     "answers": [
       {
-        "text": "spaghetti"
+        "text": "spaghetti",
+        "points": 25
       },
       {
-        "text": "świderki"
+        "text": "świderki",
+        "points": 20
       },
       {
-        "text": "rurki"
+        "text": "rurki",
+        "points": 15
       },
       {
-        "text": "muszelki"
+        "text": "muszelki",
+        "points": 10
       },
       {
-        "text": "kokardki"
+        "text": "kokardki",
+        "points": 5
       }
     ]
   },
@@ -123,19 +153,24 @@
     "text": "Co najczęściej jadamy na śniadanie",
     "answers": [
       {
-        "text": "Kanapki"
+        "text": "Kanapki",
+        "points": 25
       },
       {
-        "text": "jajecznicę"
+        "text": "jajecznicę",
+        "points": 20
       },
       {
-        "text": "owsiankę"
+        "text": "owsiankę",
+        "points": 15
       },
       {
-        "text": "tosty"
+        "text": "tosty",
+        "points": 10
       },
       {
-        "text": "parówki"
+        "text": "parówki",
+        "points": 5
       }
     ]
   },
@@ -143,19 +178,24 @@
     "text": "Jakie może być mleko",
     "answers": [
       {
-        "text": "Zsiadłe"
+        "text": "Zsiadłe",
+        "points": 25
       },
       {
-        "text": "krowie"
+        "text": "krowie",
+        "points": 20
       },
       {
-        "text": "kozie"
+        "text": "kozie",
+        "points": 15
       },
       {
-        "text": "sojowe"
+        "text": "sojowe",
+        "points": 10
       },
       {
-        "text": "w proszku"
+        "text": "w proszku",
+        "points": 5
       }
     ]
   },
@@ -163,19 +203,24 @@
     "text": "Jaka może być kasza",
     "answers": [
       {
-        "text": "Gryczana"
+        "text": "Gryczana",
+        "points": 25
       },
       {
-        "text": "jęczmienna"
+        "text": "jęczmienna",
+        "points": 20
       },
       {
-        "text": "jaglana"
+        "text": "jaglana",
+        "points": 15
       },
       {
-        "text": "manna"
+        "text": "manna",
+        "points": 10
       },
       {
-        "text": "kuskus"
+        "text": "kuskus",
+        "points": 5
       }
     ]
   },
@@ -183,19 +228,24 @@
     "text": "Rodzaje mąki",
     "answers": [
       {
-        "text": "pszenna"
+        "text": "pszenna",
+        "points": 25
       },
       {
-        "text": "ziemniaczana"
+        "text": "ziemniaczana",
+        "points": 20
       },
       {
-        "text": "kukurydziana"
+        "text": "kukurydziana",
+        "points": 15
       },
       {
-        "text": "żytnia"
+        "text": "żytnia",
+        "points": 10
       },
       {
-        "text": "razowa"
+        "text": "razowa",
+        "points": 5
       }
     ]
   },
@@ -203,19 +253,24 @@
     "text": "Najpopularniejsze potrawy określane jako „Fast-food” to",
     "answers": [
       {
-        "text": "hamburger"
+        "text": "hamburger",
+        "points": 25
       },
       {
-        "text": "pizza"
+        "text": "pizza",
+        "points": 20
       },
       {
-        "text": "frytki"
+        "text": "frytki",
+        "points": 15
       },
       {
-        "text": "zapiekanka"
+        "text": "zapiekanka",
+        "points": 10
       },
       {
-        "text": "kebab"
+        "text": "kebab",
+        "points": 5
       }
     ]
   },
@@ -223,19 +278,24 @@
     "text": "Czym można posłodzić herbatę",
     "answers": [
       {
-        "text": "cukrem"
+        "text": "cukrem",
+        "points": 25
       },
       {
-        "text": "miodem"
+        "text": "miodem",
+        "points": 20
       },
       {
-        "text": "słodzikiem"
+        "text": "słodzikiem",
+        "points": 15
       },
       {
-        "text": "sokiem"
+        "text": "sokiem",
+        "points": 10
       },
       {
-        "text": "konfiturą"
+        "text": "konfiturą",
+        "points": 5
       }
     ]
   },
@@ -243,19 +303,24 @@
     "text": "Polska potrawa narodowa to",
     "answers": [
       {
-        "text": "pierogi"
+        "text": "pierogi",
+        "points": 25
       },
       {
-        "text": "bigos"
+        "text": "bigos",
+        "points": 20
       },
       {
-        "text": "żurek"
+        "text": "żurek",
+        "points": 15
       },
       {
-        "text": "rosół"
+        "text": "rosół",
+        "points": 10
       },
       {
-        "text": "kotlet schabowy"
+        "text": "kotlet schabowy",
+        "points": 5
       }
     ]
   },
@@ -263,19 +328,24 @@
     "text": "Najpopularniejsze ciasta",
     "answers": [
       {
-        "text": "szarlotka"
+        "text": "szarlotka",
+        "points": 25
       },
       {
-        "text": "sernik"
+        "text": "sernik",
+        "points": 20
       },
       {
-        "text": "makowiec"
+        "text": "makowiec",
+        "points": 15
       },
       {
-        "text": "napoleonka/kremówka"
+        "text": "napoleonka/kremówka",
+        "points": 10
       },
       {
-        "text": "piernik"
+        "text": "piernik",
+        "points": 5
       }
     ]
   },
@@ -283,19 +353,24 @@
     "text": "Flagi państw, na których występują tylko kolory biały i czerwony",
     "answers": [
       {
-        "text": "Polska"
+        "text": "Polska",
+        "points": 25
       },
       {
-        "text": "Austria"
+        "text": "Austria",
+        "points": 20
       },
       {
-        "text": "Szwajcaria"
+        "text": "Szwajcaria",
+        "points": 15
       },
       {
-        "text": "Kanada"
+        "text": "Kanada",
+        "points": 10
       },
       {
-        "text": "Japonia"
+        "text": "Japonia",
+        "points": 5
       }
     ]
   },
@@ -303,19 +378,24 @@
     "text": "Podaj państwo, którego nazwa kończy się na „-nia”",
     "answers": [
       {
-        "text": "Dania"
+        "text": "Dania",
+        "points": 25
       },
       {
-        "text": "Hiszpania"
+        "text": "Hiszpania",
+        "points": 20
       },
       {
-        "text": "Estonia"
+        "text": "Estonia",
+        "points": 15
       },
       {
-        "text": "Rumunia"
+        "text": "Rumunia",
+        "points": 10
       },
       {
-        "text": "Albania"
+        "text": "Albania",
+        "points": 5
       }
     ]
   },
@@ -323,19 +403,24 @@
     "text": "Podaj kraj, w którym możemy znaleźć zabytkowe ruiny",
     "answers": [
       {
-        "text": "Grecja"
+        "text": "Grecja",
+        "points": 25
       },
       {
-        "text": "Egipt"
+        "text": "Egipt",
+        "points": 20
       },
       {
-        "text": "Włochy"
+        "text": "Włochy",
+        "points": 15
       },
       {
-        "text": "Chiny"
+        "text": "Chiny",
+        "points": 10
       },
       {
-        "text": "Turcja"
+        "text": "Turcja",
+        "points": 5
       }
     ]
   },
@@ -343,19 +428,24 @@
     "text": "Co kupujemy w pasmanterii",
     "answers": [
       {
-        "text": "Nici"
+        "text": "Nici",
+        "points": 25
       },
       {
-        "text": "guziki"
+        "text": "guziki",
+        "points": 20
       },
       {
-        "text": "igły"
+        "text": "igły",
+        "points": 15
       },
       {
-        "text": "wstążki"
+        "text": "wstążki",
+        "points": 10
       },
       {
-        "text": "agrafki"
+        "text": "agrafki",
+        "points": 5
       }
     ]
   },
@@ -363,19 +453,24 @@
     "text": "Co ludzie często gubią",
     "answers": [
       {
-        "text": "telefon"
+        "text": "telefon",
+        "points": 25
       },
       {
-        "text": "klucze"
+        "text": "klucze",
+        "points": 20
       },
       {
-        "text": "portfel"
+        "text": "portfel",
+        "points": 15
       },
       {
-        "text": "rękawiczki"
+        "text": "rękawiczki",
+        "points": 10
       },
       {
-        "text": "okulary"
+        "text": "okulary",
+        "points": 5
       }
     ]
   },
@@ -383,19 +478,24 @@
     "text": "Co nosimy w portfelu",
     "answers": [
       {
-        "text": "Pieniądze"
+        "text": "Pieniądze",
+        "points": 25
       },
       {
-        "text": "dokumenty"
+        "text": "dokumenty",
+        "points": 20
       },
       {
-        "text": "karty"
+        "text": "karty",
+        "points": 15
       },
       {
-        "text": "bilety"
+        "text": "bilety",
+        "points": 10
       },
       {
-        "text": "zdjęcia"
+        "text": "zdjęcia",
+        "points": 5
       }
     ]
   },
@@ -403,19 +503,24 @@
     "text": "Wyrazy, które czytane od tyłu brzmią tak samo",
     "answers": [
       {
-        "text": "kajak"
+        "text": "kajak",
+        "points": 25
       },
       {
-        "text": "oko"
+        "text": "oko",
+        "points": 20
       },
       {
-        "text": "Anna"
+        "text": "Anna",
+        "points": 15
       },
       {
-        "text": "potop"
+        "text": "potop",
+        "points": 10
       },
       {
-        "text": "zakaz"
+        "text": "zakaz",
+        "points": 5
       }
     ]
   },
@@ -423,19 +528,24 @@
     "text": "Co nie ma skrzydeł, a leci",
     "answers": [
       {
-        "text": "Balon"
+        "text": "Balon",
+        "points": 25
       },
       {
-        "text": "czas"
+        "text": "czas",
+        "points": 20
       },
       {
-        "text": "muzyka"
+        "text": "muzyka",
+        "points": 15
       },
       {
-        "text": "latawiec"
+        "text": "latawiec",
+        "points": 10
       },
       {
-        "text": "krew z nosa"
+        "text": "krew z nosa",
+        "points": 5
       }
     ]
   },
@@ -443,19 +553,24 @@
     "text": "Co według legend i popkultury może zaszkodzić wampirom",
     "answers": [
       {
-        "text": "Czosnek"
+        "text": "Czosnek",
+        "points": 25
       },
       {
-        "text": "światło"
+        "text": "światło",
+        "points": 20
       },
       {
-        "text": "drewniany kołek"
+        "text": "drewniany kołek",
+        "points": 15
       },
       {
-        "text": "krzyż"
+        "text": "krzyż",
+        "points": 10
       },
       {
-        "text": "srebro"
+        "text": "srebro",
+        "points": 5
       }
     ]
   },
@@ -463,19 +578,24 @@
     "text": "Tradycje wielkanocne",
     "answers": [
       {
-        "text": "święconka"
+        "text": "święconka",
+        "points": 25
       },
       {
-        "text": "śmigus-dyngus"
+        "text": "śmigus-dyngus",
+        "points": 20
       },
       {
-        "text": "dzielenie się jajkiem"
+        "text": "dzielenie się jajkiem",
+        "points": 15
       },
       {
-        "text": "pisanki"
+        "text": "pisanki",
+        "points": 10
       },
       {
-        "text": "Droga Krzyżowa"
+        "text": "Droga Krzyżowa",
+        "points": 5
       }
     ]
   },
@@ -483,19 +603,24 @@
     "text": "Największe przeboje Maryli Rodowicz",
     "answers": [
       {
-        "text": "Małgośka"
+        "text": "Małgośka",
+        "points": 25
       },
       {
-        "text": "Niech żyje bal"
+        "text": "Niech żyje bal",
+        "points": 20
       },
       {
-        "text": "Kolorowe jarmarki"
+        "text": "Kolorowe jarmarki",
+        "points": 15
       },
       {
-        "text": "Sing SIng"
+        "text": "Sing SIng",
+        "points": 10
       },
       {
-        "text": "Ale to już było"
+        "text": "Ale to już było",
+        "points": 5
       }
     ]
   },
@@ -503,19 +628,24 @@
     "text": "Największe hity zespołu Golec uOrkiestra",
     "answers": [
       {
-        "text": "Ściernisko"
+        "text": "Ściernisko",
+        "points": 25
       },
       {
-        "text": "Lornetka"
+        "text": "Lornetka",
+        "points": 20
       },
       {
-        "text": "Słodycze"
+        "text": "Słodycze",
+        "points": 15
       },
       {
-        "text": "Pędzą konie"
+        "text": "Pędzą konie",
+        "points": 10
       },
       {
-        "text": "Crazy is my life"
+        "text": "Crazy is my life",
+        "points": 5
       }
     ]
   },
@@ -523,19 +653,24 @@
     "text": "Coś czarnego",
     "answers": [
       {
-        "text": "humor"
+        "text": "humor",
+        "points": 25
       },
       {
-        "text": "dziura"
+        "text": "dziura",
+        "points": 20
       },
       {
-        "text": "kawa"
+        "text": "kawa",
+        "points": 15
       },
       {
-        "text": "włosy"
+        "text": "włosy",
+        "points": 10
       },
       {
-        "text": "asfalt"
+        "text": "asfalt",
+        "points": 5
       }
     ]
   },
@@ -543,19 +678,24 @@
     "text": "Atrybuty rycerza",
     "answers": [
       {
-        "text": "miecz"
+        "text": "miecz",
+        "points": 25
       },
       {
-        "text": "tarcza"
+        "text": "tarcza",
+        "points": 20
       },
       {
-        "text": "zbroja"
+        "text": "zbroja",
+        "points": 15
       },
       {
-        "text": "herb"
+        "text": "herb",
+        "points": 10
       },
       {
-        "text": "koń"
+        "text": "koń",
+        "points": 5
       }
     ]
   },
@@ -563,19 +703,24 @@
     "text": "Słynne polskie legendy",
     "answers": [
       {
-        "text": "o Lechu Czechu i Rusie"
+        "text": "o Lechu Czechu i Rusie",
+        "points": 25
       },
       {
-        "text": "o Smoku Wawelskim"
+        "text": "o Smoku Wawelskim",
+        "points": 20
       },
       {
-        "text": "o Bazyliszku"
+        "text": "o Bazyliszku",
+        "points": 15
       },
       {
-        "text": "o Popielu"
+        "text": "o Popielu",
+        "points": 10
       },
       {
-        "text": "o Warsie i Sawie"
+        "text": "o Warsie i Sawie",
+        "points": 5
       }
     ]
   },
@@ -583,19 +728,24 @@
     "text": "Symbole Krakowa",
     "answers": [
       {
-        "text": "smok wawelski"
+        "text": "smok wawelski",
+        "points": 25
       },
       {
-        "text": "Wawel"
+        "text": "Wawel",
+        "points": 20
       },
       {
-        "text": "Sukiennice"
+        "text": "Sukiennice",
+        "points": 15
       },
       {
-        "text": "Kościół Mariacki"
+        "text": "Kościół Mariacki",
+        "points": 10
       },
       {
-        "text": "Lajkonik"
+        "text": "Lajkonik",
+        "points": 5
       }
     ]
   },
@@ -603,19 +753,24 @@
     "text": "Rzeczy, z których słynie Szwajcaria",
     "answers": [
       {
-        "text": "zegarki"
+        "text": "zegarki",
+        "points": 25
       },
       {
-        "text": "sery"
+        "text": "sery",
+        "points": 20
       },
       {
-        "text": "czekolada"
+        "text": "czekolada",
+        "points": 15
       },
       {
-        "text": "góry"
+        "text": "góry",
+        "points": 10
       },
       {
-        "text": "banki"
+        "text": "banki",
+        "points": 5
       }
     ]
   },
@@ -623,19 +778,24 @@
     "text": "Co możemy znaleźć na placu zabaw",
     "answers": [
       {
-        "text": "Huśtawkę"
+        "text": "Huśtawkę",
+        "points": 25
       },
       {
-        "text": "piaskownicę"
+        "text": "piaskownicę",
+        "points": 20
       },
       {
-        "text": "zjeżdżalnię"
+        "text": "zjeżdżalnię",
+        "points": 15
       },
       {
-        "text": "karuzelę"
+        "text": "karuzelę",
+        "points": 10
       },
       {
-        "text": "zabawki"
+        "text": "zabawki",
+        "points": 5
       }
     ]
   },
@@ -643,19 +803,24 @@
     "text": "Zjawiska widoczne na niebie",
     "answers": [
       {
-        "text": "tęcza"
+        "text": "tęcza",
+        "points": 25
       },
       {
-        "text": "błyskawica"
+        "text": "błyskawica",
+        "points": 20
       },
       {
-        "text": "zachód słońca"
+        "text": "zachód słońca",
+        "points": 15
       },
       {
-        "text": "wschód słońca"
+        "text": "wschód słońca",
+        "points": 10
       },
       {
-        "text": "zorza polarna"
+        "text": "zorza polarna",
+        "points": 5
       }
     ]
   },
@@ -663,19 +828,24 @@
     "text": "Drzewo liściaste",
     "answers": [
       {
-        "text": "klon"
+        "text": "klon",
+        "points": 25
       },
       {
-        "text": "lipa"
+        "text": "lipa",
+        "points": 20
       },
       {
-        "text": "dąb"
+        "text": "dąb",
+        "points": 15
       },
       {
-        "text": "brzoza"
+        "text": "brzoza",
+        "points": 10
       },
       {
-        "text": "wierzba"
+        "text": "wierzba",
+        "points": 5
       }
     ]
   },
@@ -683,19 +853,24 @@
     "text": "Drzewo iglaste",
     "answers": [
       {
-        "text": "świerk"
+        "text": "świerk",
+        "points": 25
       },
       {
-        "text": "sosna"
+        "text": "sosna",
+        "points": 20
       },
       {
-        "text": "jodła"
+        "text": "jodła",
+        "points": 15
       },
       {
-        "text": "modrzew"
+        "text": "modrzew",
+        "points": 10
       },
       {
-        "text": "cis"
+        "text": "cis",
+        "points": 5
       }
     ]
   },
@@ -703,19 +878,24 @@
     "text": "Mało popularny język europejski",
     "answers": [
       {
-        "text": "węgierski"
+        "text": "węgierski",
+        "points": 25
       },
       {
-        "text": "holenderski"
+        "text": "holenderski",
+        "points": 20
       },
       {
-        "text": "estoński"
+        "text": "estoński",
+        "points": 15
       },
       {
-        "text": "bułgarski"
+        "text": "bułgarski",
+        "points": 10
       },
       {
-        "text": "fiński"
+        "text": "fiński",
+        "points": 5
       }
     ]
   },
@@ -723,19 +903,24 @@
     "text": "Okazja do założenia garnituru",
     "answers": [
       {
-        "text": "ślub"
+        "text": "ślub",
+        "points": 25
       },
       {
-        "text": "matura"
+        "text": "matura",
+        "points": 20
       },
       {
-        "text": "studniówka"
+        "text": "studniówka",
+        "points": 15
       },
       {
-        "text": "pogrzeb"
+        "text": "pogrzeb",
+        "points": 10
       },
       {
-        "text": "chrzciny"
+        "text": "chrzciny",
+        "points": 5
       }
     ]
   },
@@ -743,19 +928,24 @@
     "text": "Polskie miasta, w których jeżdżą tramwaje",
     "answers": [
       {
-        "text": "Warszawa"
+        "text": "Warszawa",
+        "points": 25
       },
       {
-        "text": "Kraków"
+        "text": "Kraków",
+        "points": 20
       },
       {
-        "text": "Wrocław"
+        "text": "Wrocław",
+        "points": 15
       },
       {
-        "text": "Katowice"
+        "text": "Katowice",
+        "points": 10
       },
       {
-        "text": "Poznań"
+        "text": "Poznań",
+        "points": 5
       }
     ]
   },
@@ -763,19 +953,24 @@
     "text": "Zawód na literę M",
     "answers": [
       {
-        "text": "mechanik"
+        "text": "mechanik",
+        "points": 25
       },
       {
-        "text": "murarz"
+        "text": "murarz",
+        "points": 20
       },
       {
-        "text": "malarz"
+        "text": "malarz",
+        "points": 15
       },
       {
-        "text": "masażysta"
+        "text": "masażysta",
+        "points": 10
       },
       {
-        "text": "maszynista"
+        "text": "maszynista",
+        "points": 5
       }
     ]
   },
@@ -783,19 +978,24 @@
     "text": "Znane polskie seriale",
     "answers": [
       {
-        "text": "Klan"
+        "text": "Klan",
+        "points": 25
       },
       {
-        "text": "M jak miłość"
+        "text": "M jak miłość",
+        "points": 20
       },
       {
-        "text": "Na Wspólnej"
+        "text": "Na Wspólnej",
+        "points": 15
       },
       {
-        "text": "Ukryta prawda"
+        "text": "Ukryta prawda",
+        "points": 10
       },
       {
-        "text": "Na dobre i na złe"
+        "text": "Na dobre i na złe",
+        "points": 5
       }
     ]
   },
@@ -803,19 +1003,24 @@
     "text": "Zwierzę spotykane w ZOO",
     "answers": [
       {
-        "text": "lew"
+        "text": "lew",
+        "points": 25
       },
       {
-        "text": "tygrys"
+        "text": "tygrys",
+        "points": 20
       },
       {
-        "text": "słoń"
+        "text": "słoń",
+        "points": 15
       },
       {
-        "text": "żyrafa"
+        "text": "żyrafa",
+        "points": 10
       },
       {
-        "text": "małpa"
+        "text": "małpa",
+        "points": 5
       }
     ]
   },
@@ -823,19 +1028,24 @@
     "text": "Więcej niż jedno zwierze to",
     "answers": [
       {
-        "text": "lama"
+        "text": "lama",
+        "points": 25
       },
       {
-        "text": "owca"
+        "text": "owca",
+        "points": 20
       },
       {
-        "text": "stado"
+        "text": "stado",
+        "points": 15
       },
       {
-        "text": "wataha"
+        "text": "wataha",
+        "points": 10
       },
       {
-        "text": "ławica"
+        "text": "ławica",
+        "points": 5
       }
     ]
   }
