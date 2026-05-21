@@ -55,12 +55,8 @@ let teamNames = {
 // LOSOWANIE PYTANIA
 function loadRandomQuestion() {
 
-    const keys = Object.keys(questions);
-
-    // reset użytych pytań gdy wszystkie zostały wykorzystane
-    if (usedQuestions.length >= keys.length) {
-        usedQuestions = [];
-    }
+    const keys =
+        Object.keys(questions);
 
     // pytania niewykorzystane
     const availableKeys =
@@ -68,34 +64,59 @@ function loadRandomQuestion() {
             k => !usedQuestions.includes(k)
         );
 
-    // losowanie
-    const randomKey =
-        availableKeys[
-            Math.floor(
-                Math.random() *
-                availableKeys.length
-            )
-        ];
+    // brak pytań
+    if (
+        availableKeys.length === 0
+    ) {
 
+        gameState.question =
+            "BRAK DOSTĘPNYCH PYTAŃ";
+
+        gameState.answers = [];
+
+        gameState.activeX = [];
+
+        return;
+    }
+
+    // losowanie
+    let randomKey;
+
+    for (let i = 0; i < 3; i++) {
+
+        randomKey =
+            availableKeys[
+                Math.floor(
+                    Math.random()
+                    * availableKeys.length
+                )
+            ];
+    }
     // pobranie pytania
     const q = questions[randomKey];
 
     // zapis jako użyte
     usedQuestions.push(randomKey);
 
-    // zapis do historii/statystyk
+    // historia do PDF
     usedQuestionsHistory.push({
+
         key: randomKey,
+
         question: q.text
     });
 
     // ustawienie pytania
-    gameState.question = q.text;
+    gameState.question =
+        q.text;
 
     gameState.answers =
         q.answers.map(a => ({
+
             text: a.text,
+
             points: a.points,
+
             revealed: false
         }));
 
@@ -103,7 +124,8 @@ function loadRandomQuestion() {
 
     gameState.started = true;
 
-    gameState.questionVisible = false;
+    gameState.questionVisible =
+        false;
 }
 
 // SOCKET.IO
