@@ -76,6 +76,34 @@ socket.on("update", ({ gameState: gs, teamNames }) => {
     // Suma
     updateSum();
 
+    document.getElementById(
+        "questionCounter"
+    ).textContent =
+        "PYTANIE #"
+        + (gs.questionNumber || 0);
+    
+    // NAZWY PRZYCISKÓW PUNKTÓW
+    document.getElementById(
+        "leftAddBtn"
+    ).textContent =
+        teamNames.left;
+
+    document.getElementById(
+        "rightAddBtn"
+    ).textContent =
+        teamNames.right;
+
+    // NAZWY PRZY BŁĘDACH
+    document.getElementById(
+        "leftXTitle"
+    ).textContent =
+        teamNames.left;
+
+    document.getElementById(
+        "rightXTitle"
+    ).textContent =
+        teamNames.right;
+    
     // Punkty drużyn
     document.getElementById("leftPoints").textContent =
         gs.teamPointsLeft;

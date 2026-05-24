@@ -1,367 +1,142 @@
 {
   "Q001": {
-    "text": "Jakie słone przekąski często kupujemy",
+    "text": "Jakie zwierzę możesz spotkać podczas spaceru przez pola",
     "answers": [
       {
-        "text": "Chipsy",
+        "text": "krowę",
         "points": 25
       },
       {
-        "text": "paluszki",
+        "text": "zająca",
         "points": 20
       },
       {
-        "text": "orzeszki",
+        "text": "sarnę",
         "points": 15
       },
       {
-        "text": "popcorn",
+        "text": "bociana",
         "points": 10
       },
       {
-        "text": "krakersy",
+        "text": "mysz",
         "points": 5
       }
     ]
   },
   "Q002": {
-    "text": "Popularne smaki lodów",
+    "text": "Co kupujemy w Tubce",
     "answers": [
       {
-        "text": "waniliowy",
+        "text": "pastę do zębów",
         "points": 25
       },
       {
-        "text": "czekoladowy",
+        "text": "krem do rąk",
         "points": 20
       },
       {
-        "text": "truskawkowy",
+        "text": "klej",
         "points": 15
       },
       {
-        "text": "słony karmel",
+        "text": "farbę",
         "points": 10
       },
       {
-        "text": "śmietankowy",
+        "text": "mleko",
         "points": 5
       }
     ]
   },
   "Q003": {
-    "text": "Jakie mogą być pierogi",
+    "text": "Sport, w którym walczymy z przeciwnikiem, ale go nie dotykamy",
     "answers": [
       {
-        "text": "Z mięsem",
+        "text": "tenis",
         "points": 25
       },
       {
-        "text": "ruskie",
+        "text": "ping-pong",
         "points": 20
       },
       {
-        "text": "z kapustą i grzybami",
+        "text": "siatkówka",
         "points": 15
       },
       {
-        "text": "z truskawkami",
+        "text": "badminton",
         "points": 10
       },
       {
-        "text": "ze szpinakiem",
+        "text": "szachy",
         "points": 5
       }
     ]
   },
   "Q004": {
-    "text": "Jakie jadalne grzyby rosną w lesie",
+    "text": "Co znajduje się w łazience",
     "answers": [
       {
-        "text": "Borowiki",
+        "text": "mydło",
         "points": 25
       },
       {
-        "text": "kanie",
+        "text": "szampon",
         "points": 20
       },
       {
-        "text": "kurki",
+        "text": "szczoteczka do zębów",
         "points": 15
       },
       {
-        "text": "maślaki",
+        "text": "ręcznik",
         "points": 10
       },
       {
-        "text": "rydze",
+        "text": "lustro",
         "points": 5
       }
     ]
   },
   "Q005": {
-    "text": "Rodzaje orzechów",
+    "text": "Jakie urządzenie elektryczne jest w każdym domu",
     "answers": [
       {
-        "text": "włoski",
+        "text": "lodówka",
         "points": 25
       },
       {
-        "text": "laskowy",
+        "text": "telewizor",
         "points": 20
       },
       {
-        "text": "ziemny",
+        "text": "pralka",
         "points": 15
       },
       {
-        "text": "nerkowca",
+        "text": "mikrofala",
         "points": 10
       },
       {
-        "text": "pistacja",
+        "text": "czajnik",
         "points": 5
       }
     ]
   },
   "Q006": {
-    "text": "Rodzaje makaronu",
+    "text": "Wymień kraje, w których jest zimno",
     "answers": [
       {
-        "text": "spaghetti",
+        "text": "Norwegia",
         "points": 25
       },
       {
-        "text": "świderki",
+        "text": "Islandia",
         "points": 20
       },
       {
-        "text": "rurki",
-        "points": 15
-      },
-      {
-        "text": "muszelki",
-        "points": 10
-      },
-      {
-        "text": "kokardki",
-        "points": 5
-      }
-    ]
-  },
-  "Q007": {
-    "text": "Co najczęściej jadamy na śniadanie",
-    "answers": [
-      {
-        "text": "Kanapki",
-        "points": 25
-      },
-      {
-        "text": "jajecznicę",
-        "points": 20
-      },
-      {
-        "text": "owsiankę",
-        "points": 15
-      },
-      {
-        "text": "tosty",
-        "points": 10
-      },
-      {
-        "text": "parówki",
-        "points": 5
-      }
-    ]
-  },
-  "Q008": {
-    "text": "Jakie może być mleko",
-    "answers": [
-      {
-        "text": "Zsiadłe",
-        "points": 25
-      },
-      {
-        "text": "krowie",
-        "points": 20
-      },
-      {
-        "text": "kozie",
-        "points": 15
-      },
-      {
-        "text": "sojowe",
-        "points": 10
-      },
-      {
-        "text": "w proszku",
-        "points": 5
-      }
-    ]
-  },
-  "Q009": {
-    "text": "Jaka może być kasza",
-    "answers": [
-      {
-        "text": "Gryczana",
-        "points": 25
-      },
-      {
-        "text": "jęczmienna",
-        "points": 20
-      },
-      {
-        "text": "jaglana",
-        "points": 15
-      },
-      {
-        "text": "manna",
-        "points": 10
-      },
-      {
-        "text": "kuskus",
-        "points": 5
-      }
-    ]
-  },
-  "Q010": {
-    "text": "Rodzaje mąki",
-    "answers": [
-      {
-        "text": "pszenna",
-        "points": 25
-      },
-      {
-        "text": "ziemniaczana",
-        "points": 20
-      },
-      {
-        "text": "kukurydziana",
-        "points": 15
-      },
-      {
-        "text": "żytnia",
-        "points": 10
-      },
-      {
-        "text": "razowa",
-        "points": 5
-      }
-    ]
-  },
-  "Q011": {
-    "text": "Najpopularniejsze potrawy określane jako „Fast-food” to",
-    "answers": [
-      {
-        "text": "hamburger",
-        "points": 25
-      },
-      {
-        "text": "pizza",
-        "points": 20
-      },
-      {
-        "text": "frytki",
-        "points": 15
-      },
-      {
-        "text": "zapiekanka",
-        "points": 10
-      },
-      {
-        "text": "kebab",
-        "points": 5
-      }
-    ]
-  },
-  "Q012": {
-    "text": "Czym można posłodzić herbatę",
-    "answers": [
-      {
-        "text": "cukrem",
-        "points": 25
-      },
-      {
-        "text": "miodem",
-        "points": 20
-      },
-      {
-        "text": "słodzikiem",
-        "points": 15
-      },
-      {
-        "text": "sokiem",
-        "points": 10
-      },
-      {
-        "text": "konfiturą",
-        "points": 5
-      }
-    ]
-  },
-  "Q013": {
-    "text": "Polska potrawa narodowa to",
-    "answers": [
-      {
-        "text": "pierogi",
-        "points": 25
-      },
-      {
-        "text": "bigos",
-        "points": 20
-      },
-      {
-        "text": "żurek",
-        "points": 15
-      },
-      {
-        "text": "rosół",
-        "points": 10
-      },
-      {
-        "text": "kotlet schabowy",
-        "points": 5
-      }
-    ]
-  },
-  "Q014": {
-    "text": "Najpopularniejsze ciasta",
-    "answers": [
-      {
-        "text": "szarlotka",
-        "points": 25
-      },
-      {
-        "text": "sernik",
-        "points": 20
-      },
-      {
-        "text": "makowiec",
-        "points": 15
-      },
-      {
-        "text": "napoleonka/kremówka",
-        "points": 10
-      },
-      {
-        "text": "piernik",
-        "points": 5
-      }
-    ]
-  },
-  "Q015": {
-    "text": "Flagi państw, na których występują tylko kolory biały i czerwony",
-    "answers": [
-      {
-        "text": "Polska",
-        "points": 25
-      },
-      {
-        "text": "Austria",
-        "points": 20
-      },
-      {
-        "text": "Szwajcaria",
+        "text": "Finlandia",
         "points": 15
       },
       {
@@ -369,128 +144,53 @@
         "points": 10
       },
       {
-        "text": "Japonia",
+        "text": "Szwecja",
         "points": 5
       }
     ]
   },
-  "Q016": {
-    "text": "Podaj państwo, którego nazwa kończy się na „-nia”",
+  "Q007": {
+    "text": "Co zabieramy na plażę",
     "answers": [
       {
-        "text": "Dania",
+        "text": "Ręcznik",
         "points": 25
       },
       {
-        "text": "Hiszpania",
+        "text": "kostium kąpielowy",
         "points": 20
       },
       {
-        "text": "Estonia",
+        "text": "napój",
         "points": 15
       },
       {
-        "text": "Rumunia",
+        "text": "krem z filtrem",
         "points": 10
       },
       {
-        "text": "Albania",
+        "text": "okulary przeciwsłoneczne",
         "points": 5
       }
     ]
   },
-  "Q017": {
-    "text": "Podaj kraj, w którym możemy znaleźć zabytkowe ruiny",
+  "Q008": {
+    "text": "Co wieszamy na ścianie",
     "answers": [
       {
-        "text": "Grecja",
+        "text": "Zegar",
         "points": 25
       },
       {
-        "text": "Egipt",
+        "text": "lustro",
         "points": 20
       },
       {
-        "text": "Włochy",
+        "text": "obraz",
         "points": 15
       },
       {
-        "text": "Chiny",
-        "points": 10
-      },
-      {
-        "text": "Turcja",
-        "points": 5
-      }
-    ]
-  },
-  "Q018": {
-    "text": "Co kupujemy w pasmanterii",
-    "answers": [
-      {
-        "text": "Nici",
-        "points": 25
-      },
-      {
-        "text": "guziki",
-        "points": 20
-      },
-      {
-        "text": "igły",
-        "points": 15
-      },
-      {
-        "text": "wstążki",
-        "points": 10
-      },
-      {
-        "text": "agrafki",
-        "points": 5
-      }
-    ]
-  },
-  "Q019": {
-    "text": "Co ludzie często gubią",
-    "answers": [
-      {
-        "text": "telefon",
-        "points": 25
-      },
-      {
-        "text": "klucze",
-        "points": 20
-      },
-      {
-        "text": "portfel",
-        "points": 15
-      },
-      {
-        "text": "rękawiczki",
-        "points": 10
-      },
-      {
-        "text": "okulary",
-        "points": 5
-      }
-    ]
-  },
-  "Q020": {
-    "text": "Co nosimy w portfelu",
-    "answers": [
-      {
-        "text": "Pieniądze",
-        "points": 25
-      },
-      {
-        "text": "dokumenty",
-        "points": 20
-      },
-      {
-        "text": "karty",
-        "points": 15
-      },
-      {
-        "text": "bilety",
+        "text": "kalendarz",
         "points": 10
       },
       {
@@ -499,533 +199,308 @@
       }
     ]
   },
+  "Q009": {
+    "text": "Wymień rzeczy, które kupujemy w rolkach",
+    "answers": [
+      {
+        "text": "papier toaletowy",
+        "points": 25
+      },
+      {
+        "text": "ręcznik kuchenny",
+        "points": 20
+      },
+      {
+        "text": "taśma klejąca",
+        "points": 15
+      },
+      {
+        "text": "folia aluminiowa",
+        "points": 10
+      },
+      {
+        "text": "papier do pieczenia",
+        "points": 5
+      }
+    ]
+  },
+  "Q010": {
+    "text": "Co możemy znaleźć w schowku samochodu",
+    "answers": [
+      {
+        "text": "Dokumenty",
+        "points": 25
+      },
+      {
+        "text": "klucze",
+        "points": 20
+      },
+      {
+        "text": "pieniądze",
+        "points": 15
+      },
+      {
+        "text": "okulary",
+        "points": 10
+      },
+      {
+        "text": "długopis",
+        "points": 5
+      }
+    ]
+  },
+  "Q011": {
+    "text": "Gdzie możemy trzymać pieniądze",
+    "answers": [
+      {
+        "text": "W portfelu",
+        "points": 25
+      },
+      {
+        "text": "w banku",
+        "points": 20
+      },
+      {
+        "text": "w sejfie",
+        "points": 15
+      },
+      {
+        "text": "w skarbonce",
+        "points": 10
+      },
+      {
+        "text": "w skarpecie",
+        "points": 5
+      }
+    ]
+  },
+  "Q012": {
+    "text": "Komu zostawiamy napiwek",
+    "answers": [
+      {
+        "text": "Kelnerowi",
+        "points": 25
+      },
+      {
+        "text": "barmanowi",
+        "points": 20
+      },
+      {
+        "text": "kierowcy taksówki",
+        "points": 15
+      },
+      {
+        "text": "dostawcy",
+        "points": 10
+      },
+      {
+        "text": "sprzątaczce",
+        "points": 5
+      }
+    ]
+  },
+  "Q013": {
+    "text": "Mężczyźni narzekają, że kobiety zawsze wolno",
+    "answers": [
+      {
+        "text": "ubierają się",
+        "points": 25
+      },
+      {
+        "text": "malują się",
+        "points": 20
+      },
+      {
+        "text": "jeżdżą",
+        "points": 15
+      },
+      {
+        "text": "robią zakupy",
+        "points": 10
+      },
+      {
+        "text": "chodzą",
+        "points": 5
+      }
+    ]
+  },
+  "Q014": {
+    "text": "Obudzić nas może",
+    "answers": [
+      {
+        "text": "budzik",
+        "points": 25
+      },
+      {
+        "text": "telefon",
+        "points": 20
+      },
+      {
+        "text": "człowiek",
+        "points": 15
+      },
+      {
+        "text": "słońce",
+        "points": 10
+      },
+      {
+        "text": "hałas",
+        "points": 5
+      }
+    ]
+  },
+  "Q015": {
+    "text": "Co znajdziemy w damskiej torebce",
+    "answers": [
+      {
+        "text": "Portfel",
+        "points": 25
+      },
+      {
+        "text": "klucze",
+        "points": 20
+      },
+      {
+        "text": "telefon",
+        "points": 15
+      },
+      {
+        "text": "szminkę",
+        "points": 10
+      },
+      {
+        "text": "chusteczki higieniczne",
+        "points": 5
+      }
+    ]
+  },
+  "Q016": {
+    "text": "Kategoria w grze w państwa miasta",
+    "answers": [
+      {
+        "text": "państwo",
+        "points": 25
+      },
+      {
+        "text": "miasto",
+        "points": 20
+      },
+      {
+        "text": "zwierzę",
+        "points": 15
+      },
+      {
+        "text": "imię",
+        "points": 10
+      },
+      {
+        "text": "zawód",
+        "points": 5
+      }
+    ]
+  },
+  "Q017": {
+    "text": "Jakie zwierzę zapada w sen zimowy",
+    "answers": [
+      {
+        "text": "Niedźwiedź",
+        "points": 25
+      },
+      {
+        "text": "suseł",
+        "points": 20
+      },
+      {
+        "text": "jeż",
+        "points": 15
+      },
+      {
+        "text": "borsuk",
+        "points": 10
+      },
+      {
+        "text": "świstak",
+        "points": 5
+      }
+    ]
+  },
+  "Q018": {
+    "text": "Jakie zwierzę najczęściej hodujemy w terrarium",
+    "answers": [
+      {
+        "text": "wąż",
+        "points": 25
+      },
+      {
+        "text": "pająk",
+        "points": 20
+      },
+      {
+        "text": "żółw",
+        "points": 15
+      },
+      {
+        "text": "jaszczurka",
+        "points": 10
+      },
+      {
+        "text": "żaba",
+        "points": 5
+      }
+    ]
+  },
+  "Q019": {
+    "text": "Najbardziej znane rasy psów",
+    "answers": [
+      {
+        "text": "owczarek niemiecki",
+        "points": 25
+      },
+      {
+        "text": "labrador",
+        "points": 20
+      },
+      {
+        "text": "jamnik",
+        "points": 15
+      },
+      {
+        "text": "york",
+        "points": 10
+      },
+      {
+        "text": "rottweiler",
+        "points": 5
+      }
+    ]
+  },
+  "Q020": {
+    "text": "Jadowite zwierzęta",
+    "answers": [
+      {
+        "text": "wąż",
+        "points": 25
+      },
+      {
+        "text": "pająk",
+        "points": 20
+      },
+      {
+        "text": "skorpion",
+        "points": 15
+      },
+      {
+        "text": "mrówka",
+        "points": 10
+      },
+      {
+        "text": "meduza",
+        "points": 5
+      }
+    ]
+  },
   "Q021": {
-    "text": "Wyrazy, które czytane od tyłu brzmią tak samo",
-    "answers": [
-      {
-        "text": "kajak",
-        "points": 25
-      },
-      {
-        "text": "oko",
-        "points": 20
-      },
-      {
-        "text": "Anna",
-        "points": 15
-      },
-      {
-        "text": "potop",
-        "points": 10
-      },
-      {
-        "text": "zakaz",
-        "points": 5
-      }
-    ]
-  },
-  "Q022": {
-    "text": "Co nie ma skrzydeł, a leci",
-    "answers": [
-      {
-        "text": "Balon",
-        "points": 25
-      },
-      {
-        "text": "czas",
-        "points": 20
-      },
-      {
-        "text": "muzyka",
-        "points": 15
-      },
-      {
-        "text": "latawiec",
-        "points": 10
-      },
-      {
-        "text": "krew z nosa",
-        "points": 5
-      }
-    ]
-  },
-  "Q023": {
-    "text": "Co według legend i popkultury może zaszkodzić wampirom",
-    "answers": [
-      {
-        "text": "Czosnek",
-        "points": 25
-      },
-      {
-        "text": "światło",
-        "points": 20
-      },
-      {
-        "text": "drewniany kołek",
-        "points": 15
-      },
-      {
-        "text": "krzyż",
-        "points": 10
-      },
-      {
-        "text": "srebro",
-        "points": 5
-      }
-    ]
-  },
-  "Q024": {
-    "text": "Tradycje wielkanocne",
-    "answers": [
-      {
-        "text": "święconka",
-        "points": 25
-      },
-      {
-        "text": "śmigus-dyngus",
-        "points": 20
-      },
-      {
-        "text": "dzielenie się jajkiem",
-        "points": 15
-      },
-      {
-        "text": "pisanki",
-        "points": 10
-      },
-      {
-        "text": "Droga Krzyżowa",
-        "points": 5
-      }
-    ]
-  },
-  "Q025": {
-    "text": "Największe przeboje Maryli Rodowicz",
-    "answers": [
-      {
-        "text": "Małgośka",
-        "points": 25
-      },
-      {
-        "text": "Niech żyje bal",
-        "points": 20
-      },
-      {
-        "text": "Kolorowe jarmarki",
-        "points": 15
-      },
-      {
-        "text": "Sing SIng",
-        "points": 10
-      },
-      {
-        "text": "Ale to już było",
-        "points": 5
-      }
-    ]
-  },
-  "Q026": {
-    "text": "Największe hity zespołu Golec uOrkiestra",
-    "answers": [
-      {
-        "text": "Ściernisko",
-        "points": 25
-      },
-      {
-        "text": "Lornetka",
-        "points": 20
-      },
-      {
-        "text": "Słodycze",
-        "points": 15
-      },
-      {
-        "text": "Pędzą konie",
-        "points": 10
-      },
-      {
-        "text": "Crazy is my life",
-        "points": 5
-      }
-    ]
-  },
-  "Q027": {
-    "text": "Coś czarnego",
-    "answers": [
-      {
-        "text": "humor",
-        "points": 25
-      },
-      {
-        "text": "dziura",
-        "points": 20
-      },
-      {
-        "text": "kawa",
-        "points": 15
-      },
-      {
-        "text": "włosy",
-        "points": 10
-      },
-      {
-        "text": "asfalt",
-        "points": 5
-      }
-    ]
-  },
-  "Q028": {
-    "text": "Atrybuty rycerza",
-    "answers": [
-      {
-        "text": "miecz",
-        "points": 25
-      },
-      {
-        "text": "tarcza",
-        "points": 20
-      },
-      {
-        "text": "zbroja",
-        "points": 15
-      },
-      {
-        "text": "herb",
-        "points": 10
-      },
-      {
-        "text": "koń",
-        "points": 5
-      }
-    ]
-  },
-  "Q029": {
-    "text": "Słynne polskie legendy",
-    "answers": [
-      {
-        "text": "o Lechu Czechu i Rusie",
-        "points": 25
-      },
-      {
-        "text": "o Smoku Wawelskim",
-        "points": 20
-      },
-      {
-        "text": "o Bazyliszku",
-        "points": 15
-      },
-      {
-        "text": "o Popielu",
-        "points": 10
-      },
-      {
-        "text": "o Warsie i Sawie",
-        "points": 5
-      }
-    ]
-  },
-  "Q030": {
-    "text": "Symbole Krakowa",
-    "answers": [
-      {
-        "text": "smok wawelski",
-        "points": 25
-      },
-      {
-        "text": "Wawel",
-        "points": 20
-      },
-      {
-        "text": "Sukiennice",
-        "points": 15
-      },
-      {
-        "text": "Kościół Mariacki",
-        "points": 10
-      },
-      {
-        "text": "Lajkonik",
-        "points": 5
-      }
-    ]
-  },
-  "Q031": {
-    "text": "Rzeczy, z których słynie Szwajcaria",
-    "answers": [
-      {
-        "text": "zegarki",
-        "points": 25
-      },
-      {
-        "text": "sery",
-        "points": 20
-      },
-      {
-        "text": "czekolada",
-        "points": 15
-      },
-      {
-        "text": "góry",
-        "points": 10
-      },
-      {
-        "text": "banki",
-        "points": 5
-      }
-    ]
-  },
-  "Q032": {
-    "text": "Co możemy znaleźć na placu zabaw",
-    "answers": [
-      {
-        "text": "Huśtawkę",
-        "points": 25
-      },
-      {
-        "text": "piaskownicę",
-        "points": 20
-      },
-      {
-        "text": "zjeżdżalnię",
-        "points": 15
-      },
-      {
-        "text": "karuzelę",
-        "points": 10
-      },
-      {
-        "text": "zabawki",
-        "points": 5
-      }
-    ]
-  },
-  "Q033": {
-    "text": "Zjawiska widoczne na niebie",
-    "answers": [
-      {
-        "text": "tęcza",
-        "points": 25
-      },
-      {
-        "text": "błyskawica",
-        "points": 20
-      },
-      {
-        "text": "zachód słońca",
-        "points": 15
-      },
-      {
-        "text": "wschód słońca",
-        "points": 10
-      },
-      {
-        "text": "zorza polarna",
-        "points": 5
-      }
-    ]
-  },
-  "Q034": {
-    "text": "Drzewo liściaste",
-    "answers": [
-      {
-        "text": "klon",
-        "points": 25
-      },
-      {
-        "text": "lipa",
-        "points": 20
-      },
-      {
-        "text": "dąb",
-        "points": 15
-      },
-      {
-        "text": "brzoza",
-        "points": 10
-      },
-      {
-        "text": "wierzba",
-        "points": 5
-      }
-    ]
-  },
-  "Q035": {
-    "text": "Drzewo iglaste",
-    "answers": [
-      {
-        "text": "świerk",
-        "points": 25
-      },
-      {
-        "text": "sosna",
-        "points": 20
-      },
-      {
-        "text": "jodła",
-        "points": 15
-      },
-      {
-        "text": "modrzew",
-        "points": 10
-      },
-      {
-        "text": "cis",
-        "points": 5
-      }
-    ]
-  },
-  "Q036": {
-    "text": "Mało popularny język europejski",
-    "answers": [
-      {
-        "text": "węgierski",
-        "points": 25
-      },
-      {
-        "text": "holenderski",
-        "points": 20
-      },
-      {
-        "text": "estoński",
-        "points": 15
-      },
-      {
-        "text": "bułgarski",
-        "points": 10
-      },
-      {
-        "text": "fiński",
-        "points": 5
-      }
-    ]
-  },
-  "Q037": {
-    "text": "Okazja do założenia garnituru",
-    "answers": [
-      {
-        "text": "ślub",
-        "points": 25
-      },
-      {
-        "text": "matura",
-        "points": 20
-      },
-      {
-        "text": "studniówka",
-        "points": 15
-      },
-      {
-        "text": "pogrzeb",
-        "points": 10
-      },
-      {
-        "text": "chrzciny",
-        "points": 5
-      }
-    ]
-  },
-  "Q038": {
-    "text": "Polskie miasta, w których jeżdżą tramwaje",
-    "answers": [
-      {
-        "text": "Warszawa",
-        "points": 25
-      },
-      {
-        "text": "Kraków",
-        "points": 20
-      },
-      {
-        "text": "Wrocław",
-        "points": 15
-      },
-      {
-        "text": "Katowice",
-        "points": 10
-      },
-      {
-        "text": "Poznań",
-        "points": 5
-      }
-    ]
-  },
-  "Q039": {
-    "text": "Zawód na literę M",
-    "answers": [
-      {
-        "text": "mechanik",
-        "points": 25
-      },
-      {
-        "text": "murarz",
-        "points": 20
-      },
-      {
-        "text": "malarz",
-        "points": 15
-      },
-      {
-        "text": "masażysta",
-        "points": 10
-      },
-      {
-        "text": "maszynista",
-        "points": 5
-      }
-    ]
-  },
-  "Q040": {
-    "text": "Znane polskie seriale",
-    "answers": [
-      {
-        "text": "Klan",
-        "points": 25
-      },
-      {
-        "text": "M jak miłość",
-        "points": 20
-      },
-      {
-        "text": "Na Wspólnej",
-        "points": 15
-      },
-      {
-        "text": "Ukryta prawda",
-        "points": 10
-      },
-      {
-        "text": "Na dobre i na złe",
-        "points": 5
-      }
-    ]
-  },
-  "Q041": {
-    "text": "Zwierzę spotykane w ZOO",
-    "answers": [
-      {
-        "text": "lew",
-        "points": 25
-      },
-      {
-        "text": "tygrys",
-        "points": 20
-      },
-      {
-        "text": "słoń",
-        "points": 15
-      },
-      {
-        "text": "żyrafa",
-        "points": 10
-      },
-      {
-        "text": "małpa",
-        "points": 5
-      }
-    ]
-  },
-  "Q042": {
-    "text": "Więcej niż jedno zwierze to",
+    "text": "Więcej niż jedno zwierzę to",
     "answers": [
       {
         "text": "lama",
@@ -1045,6 +520,606 @@
       },
       {
         "text": "ławica",
+        "points": 5
+      }
+    ]
+  },
+  "Q022": {
+    "text": "Jeden z bohaterów Smerfów",
+    "answers": [
+      {
+        "text": "Papa Smerf",
+        "points": 25
+      },
+      {
+        "text": "Gargamel",
+        "points": 20
+      },
+      {
+        "text": "Smerfetka",
+        "points": 15
+      },
+      {
+        "text": "Ważniak",
+        "points": 10
+      },
+      {
+        "text": "Klakier",
+        "points": 5
+      }
+    ]
+  },
+  "Q023": {
+    "text": "Co może być ujemne",
+    "answers": [
+      {
+        "text": "Liczba",
+        "points": 25
+      },
+      {
+        "text": "saldo",
+        "points": 20
+      },
+      {
+        "text": "wynik",
+        "points": 15
+      },
+      {
+        "text": "temperatura",
+        "points": 10
+      },
+      {
+        "text": "ładunek",
+        "points": 5
+      }
+    ]
+  },
+  "Q024": {
+    "text": "Jaki może być pilot",
+    "answers": [
+      {
+        "text": "Do telewizora",
+        "points": 25
+      },
+      {
+        "text": "samolotu",
+        "points": 20
+      },
+      {
+        "text": "wycieczek",
+        "points": 15
+      },
+      {
+        "text": "do samochodu",
+        "points": 10
+      },
+      {
+        "text": "rajdowy",
+        "points": 5
+      }
+    ]
+  },
+  "Q025": {
+    "text": "Jaki może być rok",
+    "answers": [
+      {
+        "text": "Przestępny",
+        "points": 25
+      },
+      {
+        "text": "kalendarzowy",
+        "points": 20
+      },
+      {
+        "text": "szkolny",
+        "points": 15
+      },
+      {
+        "text": "liturgiczny",
+        "points": 10
+      },
+      {
+        "text": "świetlny",
+        "points": 5
+      }
+    ]
+  },
+  "Q026": {
+    "text": "Co ma zęby, ale nie gryzie",
+    "answers": [
+      {
+        "text": "Grzebień",
+        "points": 25
+      },
+      {
+        "text": "piła",
+        "points": 20
+      },
+      {
+        "text": "koło zębate",
+        "points": 15
+      },
+      {
+        "text": "grabie",
+        "points": 10
+      },
+      {
+        "text": "widły",
+        "points": 5
+      }
+    ]
+  },
+  "Q027": {
+    "text": "Jaki może być klucz",
+    "answers": [
+      {
+        "text": "Do zamka",
+        "points": 25
+      },
+      {
+        "text": "wiolinowy",
+        "points": 20
+      },
+      {
+        "text": "francuski",
+        "points": 15
+      },
+      {
+        "text": "hydrauliczny",
+        "points": 10
+      },
+      {
+        "text": "ptaków",
+        "points": 5
+      }
+    ]
+  },
+  "Q028": {
+    "text": "Jakie wyróżniamy rodzaje transportu",
+    "answers": [
+      {
+        "text": "Lotniczy",
+        "points": 25
+      },
+      {
+        "text": "kolejowy",
+        "points": 20
+      },
+      {
+        "text": "drogowy",
+        "points": 15
+      },
+      {
+        "text": "lądowy",
+        "points": 10
+      },
+      {
+        "text": "wodny",
+        "points": 5
+      }
+    ]
+  },
+  "Q029": {
+    "text": "Typy samochodów",
+    "answers": [
+      {
+        "text": "samochody osobowe",
+        "points": 25
+      },
+      {
+        "text": "samochody dostawcze",
+        "points": 20
+      },
+      {
+        "text": "autobusy",
+        "points": 15
+      },
+      {
+        "text": "samochody ciężarowe",
+        "points": 10
+      },
+      {
+        "text": "samochody terenowe",
+        "points": 5
+      }
+    ]
+  },
+  "Q030": {
+    "text": "Wymień środki transportu publicznego",
+    "answers": [
+      {
+        "text": "autobus",
+        "points": 25
+      },
+      {
+        "text": "pociąg",
+        "points": 20
+      },
+      {
+        "text": "metro",
+        "points": 15
+      },
+      {
+        "text": "tramwaj",
+        "points": 10
+      },
+      {
+        "text": "samolot",
+        "points": 5
+      }
+    ]
+  },
+  "Q031": {
+    "text": "Zabytkowe budowle znajdujące się w europejskich stolicach",
+    "answers": [
+      {
+        "text": "Wieża Eiffla",
+        "points": 25
+      },
+      {
+        "text": "Big Ben",
+        "points": 20
+      },
+      {
+        "text": "Koloseum",
+        "points": 15
+      },
+      {
+        "text": "Akropol",
+        "points": 10
+      },
+      {
+        "text": "Kreml",
+        "points": 5
+      }
+    ]
+  },
+  "Q032": {
+    "text": "Od czyjego nazwiska utworzono nazwę jednostki miary",
+    "answers": [
+      {
+        "text": "Celsjusz",
+        "points": 25
+      },
+      {
+        "text": "Newton",
+        "points": 20
+      },
+      {
+        "text": "Fahrenheit",
+        "points": 15
+      },
+      {
+        "text": "Beaufort",
+        "points": 10
+      },
+      {
+        "text": "Hertz",
+        "points": 5
+      }
+    ]
+  },
+  "Q033": {
+    "text": "Czego szuka detektyw na miejscu zbrodni",
+    "answers": [
+      {
+        "text": "Ciała",
+        "points": 25
+      },
+      {
+        "text": "odcisków palców",
+        "points": 20
+      },
+      {
+        "text": "narzędzia zbrodni",
+        "points": 15
+      },
+      {
+        "text": "krwi",
+        "points": 10
+      },
+      {
+        "text": "DNA",
+        "points": 5
+      }
+    ]
+  },
+  "Q034": {
+    "text": "Wymień artykuły biurowe",
+    "answers": [
+      {
+        "text": "długopis",
+        "points": 25
+      },
+      {
+        "text": "zszywacz",
+        "points": 20
+      },
+      {
+        "text": "dziurkacz",
+        "points": 15
+      },
+      {
+        "text": "pieczątka",
+        "points": 10
+      },
+      {
+        "text": "nożyczki",
+        "points": 5
+      }
+    ]
+  },
+  "Q035": {
+    "text": "Rodzaj karty",
+    "answers": [
+      {
+        "text": "kredytowa",
+        "points": 25
+      },
+      {
+        "text": "dań",
+        "points": 20
+      },
+      {
+        "text": "do gry",
+        "points": 15
+      },
+      {
+        "text": "pamięci",
+        "points": 10
+      },
+      {
+        "text": "SIM",
+        "points": 5
+      }
+    ]
+  },
+  "Q036": {
+    "text": "Broń biała",
+    "answers": [
+      {
+        "text": "miecz",
+        "points": 25
+      },
+      {
+        "text": "nóż",
+        "points": 20
+      },
+      {
+        "text": "szabla",
+        "points": 15
+      },
+      {
+        "text": "szpada",
+        "points": 10
+      },
+      {
+        "text": "topór",
+        "points": 5
+      }
+    ]
+  },
+  "Q037": {
+    "text": "Ulubione miejsce spaceru",
+    "answers": [
+      {
+        "text": "park",
+        "points": 25
+      },
+      {
+        "text": "las",
+        "points": 20
+      },
+      {
+        "text": "stare miasto",
+        "points": 15
+      },
+      {
+        "text": "nad wodą",
+        "points": 10
+      },
+      {
+        "text": "łąka/pole",
+        "points": 5
+      }
+    ]
+  },
+  "Q038": {
+    "text": "Co przygotowuje się w przeddzień świąt",
+    "answers": [
+      {
+        "text": "święconkę",
+        "points": 25
+      },
+      {
+        "text": "pisanki",
+        "points": 20
+      },
+      {
+        "text": "ciasta",
+        "points": 15
+      },
+      {
+        "text": "mięsa/pasztety",
+        "points": 10
+      },
+      {
+        "text": "ryby",
+        "points": 5
+      }
+    ]
+  },
+  "Q039": {
+    "text": "Co widzimy spoglądając w niebo",
+    "answers": [
+      {
+        "text": "Słońce",
+        "points": 25
+      },
+      {
+        "text": "chmury",
+        "points": 20
+      },
+      {
+        "text": "gwiazdy",
+        "points": 15
+      },
+      {
+        "text": "Księżyc",
+        "points": 10
+      },
+      {
+        "text": "samoloty",
+        "points": 5
+      }
+    ]
+  },
+  "Q040": {
+    "text": "Do czego używamy szczotki",
+    "answers": [
+      {
+        "text": "do toalety",
+        "points": 25
+      },
+      {
+        "text": "do mycia zębów",
+        "points": 20
+      },
+      {
+        "text": "do włosów",
+        "points": 15
+      },
+      {
+        "text": "do butów",
+        "points": 10
+      },
+      {
+        "text": "do sprzątania",
+        "points": 5
+      }
+    ]
+  },
+  "Q041": {
+    "text": "Miejsce, w którym można pływać",
+    "answers": [
+      {
+        "text": "morze",
+        "points": 25
+      },
+      {
+        "text": "basen",
+        "points": 20
+      },
+      {
+        "text": "jezioro",
+        "points": 15
+      },
+      {
+        "text": "ocean",
+        "points": 10
+      },
+      {
+        "text": "rzeka",
+        "points": 5
+      }
+    ]
+  },
+  "Q042": {
+    "text": "Co można kupić w piekarni",
+    "answers": [
+      {
+        "text": "chleb",
+        "points": 25
+      },
+      {
+        "text": "bułki",
+        "points": 20
+      },
+      {
+        "text": "pączki",
+        "points": 15
+      },
+      {
+        "text": "drożdżówki",
+        "points": 10
+      },
+      {
+        "text": "bagietki",
+        "points": 5
+      }
+    ]
+  },
+  "Q043": {
+    "text": "Co kojarzy się z zimą",
+    "answers": [
+      {
+        "text": "śnieg",
+        "points": 25
+      },
+      {
+        "text": "Mróz",
+        "points": 20
+      },
+      {
+        "text": "Bałwan",
+        "points": 15
+      },
+      {
+        "text": "Sanki",
+        "points": 10
+      },
+      {
+        "text": "Święta",
+        "points": 5
+      }
+    ]
+  },
+  "Q044": {
+    "text": "Co zabieramy na siłownię",
+    "answers": [
+      {
+        "text": "ręcznik",
+        "points": 25
+      },
+      {
+        "text": "słuchawki",
+        "points": 20
+      },
+      {
+        "text": "wodę",
+        "points": 15
+      },
+      {
+        "text": "strój sportowy",
+        "points": 10
+      },
+      {
+        "text": "dezodorant",
+        "points": 5
+      }
+    ]
+  },
+  "Q045": {
+    "text": "Co można znaleźć w samochodzie",
+    "answers": [
+      {
+        "text": "Radio",
+        "points": 25
+      },
+      {
+        "text": "apteczkę",
+        "points": 20
+      },
+      {
+        "text": "dokumenty",
+        "points": 15
+      },
+      {
+        "text": "ładowarkę",
+        "points": 10
+      },
+      {
+        "text": "okulary",
         "points": 5
       }
     ]

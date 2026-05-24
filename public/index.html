@@ -60,6 +60,9 @@
 
 <!-- Start gry -->
 <button id="btnStartGame">ROZPOCZNIJ GRĘ</button>
+<div id="questionCounter">
+    PYTANIE #0
+</div>
 
 <h2 id="question">Pytanie</h2>
 <button
@@ -95,8 +98,13 @@
 
 <div class="addPanel">
     <div>Dodaj punkty dla:</div>
-    <button onclick="addSum('left')">Drużyna 1</button>
-    <button onclick="addSum('right')">Drużyna 2</button>
+    <button id="leftAddBtn" onclick="addSum('left')">
+        Drużyna 1
+    </button>
+
+    <button id="rightAddBtn" onclick="addSum('right')">
+        Drużyna 2
+    </button>
 </div>
 
 <button onclick="nextQuestion()">PRZEJDŹ DALEJ</button>
@@ -112,8 +120,11 @@
 
     <div class="xgroup">
 
-        <div class="xgroup-title">
-            LEWA DRUŻYNA
+        <div
+            class="xgroup-title"
+            id="leftXTitle"
+        >
+            DRUŻYNA 1
         </div>
 
         <button onclick="toggleX('left1')">
@@ -134,8 +145,11 @@
 
     <div class="xgroup">
 
-        <div class="xgroup-title">
-            PRAWA DRUŻYNA
+        <div
+            class="xgroup-title"
+            id="rightXTitle"
+        >
+            DRUŻYNA 2
         </div>
 
         <button onclick="toggleX('right1')">

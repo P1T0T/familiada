@@ -36,6 +36,7 @@ let usedQuestions = [];
 
 // historia pytań do PDF/statystyk
 let usedQuestionsHistory = [];
+let currentQuestionNumber = 0;
 
 let gameState = {
     question: "",
@@ -44,7 +45,8 @@ let gameState = {
     teamPointsRight: 0,
     activeX: [],
     started: false,
-    questionVisible: false
+    questionVisible: false,
+    questionNumber: 0
 };
 
 let teamNames = {
@@ -106,6 +108,8 @@ function loadRandomQuestion() {
         question: q.text
     });
 
+    currentQuestionNumber++;
+
     // ustawienie pytania
     gameState.question =
         q.text;
@@ -126,6 +130,9 @@ function loadRandomQuestion() {
 
     gameState.questionVisible =
         false;
+
+    gameState.questionNumber =
+        currentQuestionNumber;
 }
 
 // SOCKET.IO
@@ -320,6 +327,7 @@ socket.on("toggleX", key => {
         usedQuestions = [];
 
         usedQuestionsHistory = [];
+        currentQuestionNumber = 0;
 
         // reset gry
         gameState = {
