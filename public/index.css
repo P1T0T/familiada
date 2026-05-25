@@ -244,3 +244,55 @@ button:hover {
 
     font-size: 14px;
 }
+
+.statusModal {
+
+    position: fixed;
+
+    inset: 0;
+
+    background: rgba(0,0,0,0.85);
+
+    display: none;
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 9999;
+}
+
+.statusContent {
+
+    background: #1b1b1b;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    width: 700px;
+
+    max-height: 80vh;
+
+    overflow-y: auto;
+
+    color: white;
+}
+
+.statusRow {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 10px;
+}
+
+.statusRow select {
+
+    padding: 5px;
+}

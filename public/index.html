@@ -108,6 +108,9 @@
 </div>
 
 <button onclick="nextQuestion()">PRZEJDŹ DALEJ</button>
+<button onclick="cancelQuestion()">
+    ANULUJ PYTANIE
+</button>
 <button onclick="clearRoundPoints()">
     WYCZYŚĆ PUNKTY
 </button>
@@ -187,6 +190,24 @@
             </button>
 
         </div>
+
+    </div>
+
+</div>
+
+<div id="statusModal" class="statusModal">
+
+    <div class="statusContent">
+
+        <h2>
+            STATUS PYTAŃ
+        </h2>
+
+        <div id="statusQuestions"></div>
+
+        <button onclick="confirmGeneratePDF()">
+            GENERUJ PDF
+        </button>
 
     </div>
 

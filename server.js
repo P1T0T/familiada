@@ -8,6 +8,9 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server);
 
+app.use(express.static("public"));
+
+// PLAYERS
 const playersData = JSON.parse(
     fs.readFileSync(
         path.join(__dirname, "players.json"),
@@ -15,8 +18,7 @@ const playersData = JSON.parse(
     )
 );
 
-app.use(express.static("public"));
-
+// QUESTIONS
 const questions = JSON.parse(
     fs.readFileSync(
         path.join(__dirname, "questions.json"),
@@ -24,20 +26,22 @@ const questions = JSON.parse(
     )
 );
 
+// BŁĘDY
 let gameErrors = {
-
     left: 0,
-
     right: 0
 };
 
-// użyte pytania
+// UŻYTE PYTANIA
 let usedQuestions = [];
 
-// historia pytań do PDF/statystyk
+// HISTORIA PYTAŃ
 let usedQuestionsHistory = [];
+
+// NUMER PYTANIA
 let currentQuestionNumber = 0;
 
+// GAME STATE
 let gameState = {
     question: "",
     answers: [],
@@ -49,6 +53,7 @@ let gameState = {
     questionNumber: 0
 };
 
+// NAZWY DRUŻYN
 let teamNames = {
     left: "Drużyna 1",
     right: "Drużyna 2"
@@ -57,19 +62,16 @@ let teamNames = {
 // LOSOWANIE PYTANIA
 function loadRandomQuestion() {
 
-    const keys =
-        Object.keys(questions);
+    const keys = Object.keys(questions);
 
-    // pytania niewykorzystane
+    // tylko niewykorzystane
     const availableKeys =
         keys.filter(
             k => !usedQuestions.includes(k)
         );
 
     // brak pytań
-    if (
-        availableKeys.length === 0
-    ) {
+    if (availableKeys.length === 0) {
 
         gameState.question =
             "BRAK DOSTĘPNYCH PYTAŃ";
@@ -81,7 +83,7 @@ function loadRandomQuestion() {
         return;
     }
 
-    // losowanie
+    // LOSOWANIE
     let randomKey;
 
     for (let i = 0; i < 3; i++) {
@@ -94,53 +96,84 @@ function loadRandomQuestion() {
                 )
             ];
     }
-    // pobranie pytania
+
+    // POBRANIE PYTANIA
     const q = questions[randomKey];
 
-    // zapis jako użyte
+    // DODAJ DO UŻYTYCH
     usedQuestions.push(randomKey);
 
-    // historia do PDF
-    usedQuestionsHistory.push({
-
-        key: randomKey,
-
-        question: q.text
-    });
-
+    // NUMER PYTANIA
     currentQuestionNumber++;
 
-    // ustawienie pytania
+    // DODAJ DO HISTORII
+    usedQuestionsHistory.push({
+
+        number:
+            currentQuestionNumber,
+
+        key:
+            randomKey,
+
+        question:
+            q.text,
+
+        status:
+            "ZATWIERDZONE"
+    });
+
+    // GAMESTATE
     gameState.question =
         q.text;
 
     gameState.answers =
         q.answers.map(a => ({
 
-            text: a.text,
+            text:
+                a.text,
 
-            points: a.points,
+            points:
+                a.points,
 
-            revealed: false
+            revealed:
+                false
         }));
 
     gameState.activeX = [];
 
     gameState.started = true;
 
-    gameState.questionVisible =
-        false;
+    gameState.questionVisible = false;
 
     gameState.questionNumber =
         currentQuestionNumber;
 }
 
-// SOCKET.IO
+// SOCKET
 io.on("connection", socket => {
 
+    // WYŚLIJ UPDATE
+    function sendUpdate() {
+
+        io.emit("update", {
+
+            gameState: {
+
+                ...gameState,
+
+                usedQuestions:
+                    usedQuestionsHistory
+            },
+
+            teamNames
+        });
+    }
+
+    // PODGLĄD DRUŻYN
     socket.on("getTeamPreview", data => {
 
-        const side = data.side;
+        const side =
+            data.side;
 
         const teamName =
             teamNames[side];
@@ -158,19 +191,12 @@ io.on("connection", socket => {
         );
     });
 
+    // POKAŻ PYTANIE
     socket.on("showQuestion", () => {
 
         gameState.questionVisible = true;
 
-        io.emit("update", {
-            gameState,
-            teamNames
-        });
-    });
-
-    socket.emit("update", {
-        gameState,
-        teamNames
+        sendUpdate();
     });
 
     // START GRY
@@ -178,24 +204,22 @@ io.on("connection", socket => {
 
         loadRandomQuestion();
 
-        io.emit("update", {
-            gameState,
-            teamNames
-        });
+        sendUpdate();
     });
 
     // NOWE PYTANIE
     socket.on("newQuestion", () => {
 
-        loadRandomQuestion();
+        setTimeout(() => {
 
-        io.emit("update", {
-            gameState,
-            teamNames
-        });
+            loadRandomQuestion();
+
+            sendUpdate();
+
+        }, 100);
     });
 
-    // ODSŁANIANIE ODPOWIEDZI
+    // ODSŁOŃ ODPOWIEDŹ
     socket.on("revealAnswer", i => {
 
         if (gameState.answers[i]) {
@@ -204,101 +228,93 @@ io.on("connection", socket => {
                 !gameState.answers[i].revealed;
         }
 
-        io.emit("update", {
-            gameState,
-            teamNames
-        });
+        sendUpdate();
     });
 
-// BŁĘDY X
-socket.on("toggleX", key => {
+    // X
+    socket.on("toggleX", key => {
 
-    if (
-        gameState.activeX.includes(key)
-    ) {
+        if (
+            gameState.activeX.includes(key)
+        ) {
 
-        gameState.activeX =
-            gameState.activeX.filter(
-                x => x !== key
-            );
+            gameState.activeX =
+                gameState.activeX.filter(
+                    x => x !== key
+                );
 
-    } else {
+        } else {
 
-        gameState.activeX.push(key);
+            gameState.activeX.push(key);
 
-        // zliczanie błędów do statystyk
-        if (key.includes("left")) {
+            if (key.includes("left")) {
+                gameErrors.left++;
+            }
 
-            gameErrors.left++;
+            if (key.includes("right")) {
+                gameErrors.right++;
+            }
         }
 
-        if (key.includes("right")) {
-
-            gameErrors.right++;
-        }
-    }
-
-    io.emit("update", {
-        gameState,
-        teamNames
+        sendUpdate();
     });
 
-
-        io.emit("update", {
-            gameState,
-            teamNames
-        });
-    });
-
-    // CZYSZCZENIE X
+    // CLEAR X
     socket.on("clearX", () => {
 
         gameState.activeX = [];
 
-        io.emit("update", {
-            gameState,
-            teamNames
-        });
+        sendUpdate();
     });
 
-    // NAZWY DRUŻYN
+    // UPDATE TEAM
     socket.on(
         "updateTeamName",
         ({ side, name }) => {
 
             teamNames[side] = name;
 
-            io.emit("update", {
-                gameState,
-                teamNames
-            });
+            sendUpdate();
         }
     );
 
-    // DODAWANIE PUNKTÓW
+    // ADD POINTS
     socket.on(
         "addPoints",
         ({ side, points }) => {
 
             if (side === "left") {
+
                 gameState.teamPointsLeft += points;
             }
 
             if (side === "right") {
+
                 gameState.teamPointsRight += points;
             }
 
-            io.emit("update", {
-                gameState,
-                teamNames
-            });
+            sendUpdate();
         }
     );
 
-    // RESET GRY
-    socket.on("resetGame", () => {
+    // ZMIANA STATUSU PYTANIA
+    socket.on(
+        "updateQuestionStatus",
+        ({ index, status }) => {
 
-        // wysłanie statystyk
+            if (
+                usedQuestionsHistory[index]
+            ) {
+
+                usedQuestionsHistory[index].status =
+                    status;
+            }
+        }
+    );
+
+    // GENERUJ PDF
+    socket.on("generatePDF", () => {
+
         io.emit("gameStats", {
 
             leftTeam:
@@ -323,13 +339,13 @@ socket.on("toggleX", key => {
                 usedQuestionsHistory
         });
 
-        // reset pytań
+        // RESET
         usedQuestions = [];
 
         usedQuestionsHistory = [];
+
         currentQuestionNumber = 0;
 
-        // reset gry
         gameState = {
 
             question: "",
@@ -342,10 +358,13 @@ socket.on("toggleX", key => {
 
             activeX: [],
 
-            started: false
+            started: false,
+
+            questionVisible: false,
+
+            questionNumber: 0
         };
 
-        // reset nazw
         teamNames = {
 
             left: "Drużyna 1",
@@ -360,16 +379,17 @@ socket.on("toggleX", key => {
             right: 0
         };
 
-        io.emit("update", {
-            gameState,
-            teamNames
-        });
+        sendUpdate();
     });
+
+    // PIERWSZY UPDATE
+    sendUpdate();
 });
 
-// START SERWERA
-server.listen(3000, "0.0.0.0", () =>
+// START
+server.listen(3000, "0.0.0.0", () => {
+
     console.log(
         "http://localhost:3000"
-    )
-);
+    );
+});

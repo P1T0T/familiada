@@ -45,6 +45,8 @@ socket.on("update", ({ gameState: gs, teamNames }) => {
 
     gameState = gs;
     gameState.teamNames = teamNames;
+    gameState.usedQuestions =
+    gs.usedQuestions || [];
 
     const showBtn =
         document.getElementById(
@@ -238,6 +240,8 @@ function toggleX(key) {
 
 // RESET GRY
 function resetGame() {
+
+    openStatusModal();
 
     // zatrzymaj timer
     clearInterval(gameTimerInterval);
@@ -461,11 +465,6 @@ function resetGameTimer() {
     updateGameTimer();
 }
 
-socket.on("gameStats", data => {
-
-    generatePDF(data);
-});
-
 function fixPolish(text) {
 
     return text
@@ -580,7 +579,20 @@ async function generatePDF(data) {
     data.usedQuestions.forEach((q, i) => {
 
         doc.text(
-            fixPolish(`${i + 1}. ${q.question}`),
+            fixPolish(
+                q.status === "ANULOWANE"
+                    ? `${i + 1}. ${q.question} [ANULOWANE]`
+                    : `${i + 1}. ${q.question}`
+
+                + (
+
+                    q.status === "ANULOWANE"
+
+                    ? " [ANULOWANE]"
+
+                    : ""
+                )
+            ),
             25,
             y
         );
@@ -621,9 +633,137 @@ async function generatePDF(data) {
     doc.save(
         "statystyka_familiady.pdf"
     );
+
+    socket.emit("finalReset");
 }
 
 function showQuestion() {
 
     socket.emit("showQuestion");
+}
+
+function openStatusModal() {
+
+    const modal =
+        document.getElementById(
+            "statusModal"
+        );
+
+    const container =
+        document.getElementById(
+            "statusQuestions"
+        );
+
+    container.innerHTML = "";
+
+    gameState.usedQuestions.forEach(
+        (q, i) => {
+
+            const row =
+                document.createElement("div");
+
+            row.className =
+                "statusRow";
+
+            row.innerHTML = `
+
+                <div>
+                    ${i + 1}. ${q.question}
+                </div>
+
+                <select
+                    onchange="
+                        gameState.usedQuestions[${i}].status = this.value
+                    "
+                >
+                    <option
+                        value="ZATWIERDZONE"
+                        ${q.status === "ZATWIERDZONE" ? "selected" : ""}
+                    >
+                        ZATWIERDZONE
+                    </option>
+
+                    <option
+                        value="ANULOWANE"
+                        ${q.status === "ANULOWANE" ? "selected" : ""}
+                    >
+                        ANULOWANE
+                    </option>
+                </select>
+            `;
+
+            container.appendChild(row);
+        }
+    );
+
+    modal.style.display =
+        "flex";
+}
+
+function confirmGeneratePDF() {
+
+    document.getElementById(
+        "statusModal"
+    ).style.display = "none";
+
+    clearInterval(
+        gameTimerInterval
+    );
+
+    generatePDF({
+
+        leftTeam:
+            gameState.teamNames.left,
+
+        rightTeam:
+            gameState.teamNames.right,
+
+        leftPoints:
+            gameState.teamPointsLeft,
+
+        rightPoints:
+            gameState.teamPointsRight,
+
+        leftErrors:
+            gameState.activeX.filter(
+                x => x.includes("left")
+            ).length,
+
+        rightErrors:
+            gameState.activeX.filter(
+                x => x.includes("right")
+            ).length,
+
+        usedQuestions:
+            gameState.usedQuestions
+    });
+
+    socket.emit("resetGame");
+}
+
+function cancelQuestion() {
+
+    const confirmCancel = confirm(
+        "Czy na pewno anulować to pytanie?\n\n" +
+        "Pytanie otrzyma status ANULOWANE\n" +
+        "i nastąpi przejście do kolejnego pytania."
+    );
+
+    if (!confirmCancel) return;
+
+    // ostatnie pytanie
+    const lastIndex =
+        gameState.usedQuestions.length - 1;
+
+    // ustaw status
+    socket.emit(
+        "updateQuestionStatus",
+        {
+            index: lastIndex,
+            status: "ANULOWANE"
+        }
+    );
+
+    // nowe pytanie
+    socket.emit("newQuestion");
 }
