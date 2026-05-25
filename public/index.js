@@ -545,6 +545,39 @@ async function generatePDF(data) {
 
     y += 20;
 
+    // Data
+    doc.setFontSize(12);
+
+    doc.text(
+        fixPolish("Data wygenerowania: ")
+        + new Date().toLocaleString(),
+        20,
+        y
+    );
+
+    y += 15;
+
+    // Czas gry
+    const gameTime =
+        document.getElementById(
+            "gameTimerText"
+        ).textContent;
+
+    doc.text(
+        gameTime,
+        20,
+        y
+    );
+
+    y += 15;
+
+    // Wyniki
+    doc.setFontSize(16);
+
+    doc.text("WYNIKI:", 20, y);
+
+    y += 10;
+
     doc.setFontSize(12);
 
     doc.text(
