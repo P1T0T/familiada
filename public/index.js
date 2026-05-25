@@ -2,12 +2,17 @@ const socket = io();
 let manualAudio = null;
 
 let gameState;
-let armedSum = null;
 let currentSum = 0;
 
-const questionEl = document.getElementById("question");
-const answersDiv = document.getElementById("answers");
-const sumEl = document.getElementById("sum");
+const questionEl =
+    document.getElementById("question");
+
+const answersDiv =
+    document.getElementById("answers");
+
+const sumEl =
+    document.getElementById("sum");
+
 const audioBar =
     document.getElementById("audioBar");
 
@@ -15,114 +20,139 @@ const audioTime =
     document.getElementById("audioTime");
 
 let gameSeconds = 0;
-
 let gameTimerInterval = null;
 
 // START GRY
-document.getElementById("btnStartGame").onclick = () => {
+document.getElementById(
+    "btnStartGame"
+).onclick = () => {
 
-    // START TIMERA
-    clearInterval(gameTimerInterval);
+    clearInterval(
+        gameTimerInterval
+    );
 
     gameSeconds = 0;
 
     updateGameTimer();
 
-    gameTimerInterval = setInterval(() => {
+    gameTimerInterval =
+        setInterval(() => {
 
-        gameSeconds++;
+            gameSeconds++;
 
-        updateGameTimer();
+            updateGameTimer();
 
-    }, 1000);
+        }, 1000);
 
-    // START GRY
     socket.emit("startGame");
 };
 
-// UPDATE OD SERWERA
-socket.on("update", ({ gameState: gs, teamNames }) => {
+// UPDATE
+socket.on(
+    "update",
+    ({ gameState: gs, teamNames }) => {
 
-    gameState = gs;
-    gameState.teamNames = teamNames;
-    gameState.usedQuestions =
-    gs.usedQuestions || [];
+        gameState = gs;
 
-    const showBtn =
+        gameState.teamNames =
+            teamNames;
+
+        gameState.usedQuestions =
+            gs.usedQuestions || [];
+
+        const showBtn =
+            document.getElementById(
+                "showQuestionBtn"
+            );
+
+        if (showBtn) {
+
+            showBtn.style.display =
+                gameState.questionVisible
+                    ? "none"
+                    : "inline-block";
+        }
+
+        questionEl.textContent =
+            gs.question ||
+            "WITAMY W FAMILIADZIE";
+
+        renderAnswers();
+
+        updateSum();
+
         document.getElementById(
-            "showQuestionBtn"
+            "questionCounter"
+        ).textContent =
+            "PYTANIE #"
+            + (gs.questionNumber || 0);
+
+        // przyciski punktów
+        document.getElementById(
+            "leftAddBtn"
+        ).textContent =
+            teamNames.left;
+
+        document.getElementById(
+            "rightAddBtn"
+        ).textContent =
+            teamNames.right;
+
+        // nazwy przy błędach
+        document.getElementById(
+            "leftXTitle"
+        ).textContent =
+            teamNames.left;
+
+        document.getElementById(
+            "rightXTitle"
+        ).textContent =
+            teamNames.right;
+
+        // punkty
+        document.getElementById(
+            "leftPoints"
+        ).textContent =
+            gs.teamPointsLeft;
+
+        document.getElementById(
+            "rightPoints"
+        ).textContent =
+            gs.teamPointsRight;
+
+        renderTeams(teamNames);
+    }
+);
+
+// RENDER DRUŻYN
+function renderTeams(teamNames) {
+
+    const leftWrapper =
+        document.getElementById(
+            "leftTeam"
         );
 
-    if (showBtn) {
+    const rightWrapper =
+        document.getElementById(
+            "rightTeam"
+        );
 
-        if (
-            gameState.questionVisible
-        ) {
-
-            showBtn.style.display =
-                "none";
-
-        } else {
-
-            showBtn.style.display =
-                "inline-block";
-        }
-    }
-
-    // Pytanie
-    questionEl.textContent = gs.question || "WITAMY W FAMILIADZIE";
-
-    // Odpowiedzi
-    renderAnswers();
-
-    // Suma
-    updateSum();
-
-    document.getElementById(
-        "questionCounter"
-    ).textContent =
-        "PYTANIE #"
-        + (gs.questionNumber || 0);
-    
-    // NAZWY PRZYCISKÓW PUNKTÓW
-    document.getElementById(
-        "leftAddBtn"
-    ).textContent =
-        teamNames.left;
-
-    document.getElementById(
-        "rightAddBtn"
-    ).textContent =
-        teamNames.right;
-
-    // NAZWY PRZY BŁĘDACH
-    document.getElementById(
-        "leftXTitle"
-    ).textContent =
-        teamNames.left;
-
-    document.getElementById(
-        "rightXTitle"
-    ).textContent =
-        teamNames.right;
-    
-    // Punkty drużyn
-    document.getElementById("leftPoints").textContent =
-        gs.teamPointsLeft;
-
-    document.getElementById("rightPoints").textContent =
-        gs.teamPointsRight;
-
-    // RESET INPUTÓW DRUŻYN PO WYCZYŚĆ
-    const leftWrapper = document.getElementById("leftTeam");
-    const rightWrapper = document.getElementById("rightTeam");
-
-    // LEWA DRUŻYNA
-    if (teamNames.left === "Drużyna 1") {
+    if (
+        teamNames.left
+        === "Drużyna 1"
+    ) {
 
         leftWrapper.innerHTML = `
-            <input id="leftInput" placeholder="Drużyna 1">
-            <button onclick="confirmTeam('left')">✔</button>
+            <input
+                id="leftInput"
+                placeholder="Drużyna 1"
+            >
+
+            <button
+                onclick="confirmTeam('left')"
+            >
+                ✔
+            </button>
         `;
 
     } else {
@@ -137,12 +167,22 @@ socket.on("update", ({ gameState: gs, teamNames }) => {
         `;
     }
 
-    // PRAWA DRUŻYNA
-    if (teamNames.right === "Drużyna 2") {
+    if (
+        teamNames.right
+        === "Drużyna 2"
+    ) {
 
         rightWrapper.innerHTML = `
-            <input id="rightInput" placeholder="Drużyna 2">
-            <button onclick="confirmTeam('right')">✔</button>
+            <input
+                id="rightInput"
+                placeholder="Drużyna 2"
+            >
+
+            <button
+                onclick="confirmTeam('right')"
+            >
+                ✔
+            </button>
         `;
 
     } else {
@@ -156,314 +196,318 @@ socket.on("update", ({ gameState: gs, teamNames }) => {
             </span>
         `;
     }
-});
+}
 
-// ODPOWIEDZI W CENTRUM
-// zawsze widoczne
+// ODPOWIEDZI
 function renderAnswers() {
 
     answersDiv.innerHTML = "";
 
-    const answers = gameState.answers || [];
+    const answers =
+        gameState.answers || [];
 
     for (let i = 0; i < 5; i++) {
 
         const a = answers[i] || {
+
             text: "",
             points: 0,
             revealed: false
         };
 
-        const div = document.createElement("div");
+        const div =
+            document.createElement("div");
 
-        // kolor wg odsłonięcia
         div.className =
-            "answer " + (a.revealed ? "revealed" : "hidden");
+            "answer "
+            + (
+                a.revealed
+                    ? "revealed"
+                    : "hidden"
+            );
 
         div.textContent =
             `${i + 1}. ${a.text} (${a.points})`;
 
-        // klik = odsłoń na display
-        div.onclick = () => socket.emit("revealAnswer", i);
+        div.onclick = () =>
+            socket.emit(
+                "revealAnswer",
+                i
+            );
 
         answersDiv.appendChild(div);
     }
 }
 
-// SUMA PUNKTÓW
+// SUMA
 function updateSum() {
 
-    currentSum = gameState.answers
-        ? gameState.answers.reduce(
-            (s, a) => a.revealed ? s + a.points : s,
-            0
-        )
-        : 0;
+    currentSum =
+        gameState.answers
+            ? gameState.answers.reduce(
+                (s, a) =>
+                    a.revealed
+                        ? s + a.points
+                        : s,
+                0
+            )
+            : 0;
 
-    sumEl.textContent = "SUMA: " + currentSum;
+    sumEl.textContent =
+        "SUMA: "
+        + currentSum;
 }
 
-// UZBRAJANIE SUMY
-sumEl.onclick = () => {
-
-    armedSum = currentSum;
-
-    sumEl.classList.add("active");
-};
-
 // DODAWANIE PUNKTÓW
-document.getElementById("leftPoints").onclick =
-    () => addSum("left");
+document.getElementById(
+    "leftPoints"
+).onclick = () =>
+    addSum("left");
 
-document.getElementById("rightPoints").onclick =
-    () => addSum("right");
+document.getElementById(
+    "rightPoints"
+).onclick = () =>
+    addSum("right");
 
 function addSum(side) {
 
     if (!currentSum) return;
 
-    socket.emit("addPoints", {
-        side,
-        points: currentSum
-    });
+    socket.emit(
+        "addPoints",
+        {
+            side,
+            points: currentSum
+        }
+    );
 }
 
 // NOWE PYTANIE
 function nextQuestion() {
-    socket.emit("newQuestion");
+
+    socket.emit(
+        "newQuestion"
+    );
 }
 
-// X-Y
+// X
 function toggleX(key) {
-    socket.emit("toggleX", key);
+
+    socket.emit(
+        "toggleX",
+        key
+    );
 }
 
-// RESET GRY
+// ZAKOŃCZ GRĘ
 function resetGame() {
 
-    openStatusModal();
-
-    // zatrzymaj timer
-    clearInterval(gameTimerInterval);
-
-    // zapisz statystyki
-    const stats = JSON.parse(
-        localStorage.getItem("familiadaStats")
-    ) || [];
-
-    stats.push({
-
-        date:
-            new Date().toLocaleString(),
-
-        leftTeam:
-            gameState.teamNames?.left || "Drużyna 1",
-
-        rightTeam:
-            gameState.teamNames?.right || "Drużyna 2",
-
-        leftPoints:
-            gameState.teamPointsLeft,
-
-        rightPoints:
-            gameState.teamPointsRight,
-
-        leftErrors:
-            gameState.activeX.filter(
-                x => x.includes("left")
-            ).length,
-
-        rightErrors:
-            gameState.activeX.filter(
-                x => x.includes("right")
-            ).length,
-
-        duration:
-            document.getElementById("gameTimer").textContent
-
-    });
-
-    localStorage.setItem(
-        "familiadaStats",
-        JSON.stringify(stats)
+    clearInterval(
+        gameTimerInterval
     );
 
-    socket.emit("resetGame");
+    openStatusModal();
 }
 
-// ZATWIERDZANIE DRUŻYNY
+// DRUŻYNY
 function confirmTeam(side) {
 
     const wrapper =
-        document.getElementById(side + "Team");
+        document.getElementById(
+            side + "Team"
+        );
 
     const input =
-        wrapper.querySelector("input");
+        wrapper.querySelector(
+            "input"
+        );
 
-    const name = input.value;
+    const name =
+        input.value;
 
-    socket.emit("updateTeamName", {
-        side,
-        name
-    });
-
-    wrapper.innerHTML = `
-        <span
-            class="confirmed"
-            ondblclick="editTeam('${side}')"
-        >
-            ${name}
-        </span>
-    `;
+    socket.emit(
+        "updateTeamName",
+        {
+            side,
+            name
+        }
+    );
 }
 
-// EDYCJA DRUŻYNY
 function editTeam(side) {
 
     const wrapper =
-        document.getElementById(side + "Team");
+        document.getElementById(
+            side + "Team"
+        );
 
     wrapper.innerHTML = `
         <input id="${side}Input">
-        <button onclick="confirmTeam('${side}')">
+
+        <button
+            onclick="
+                confirmTeam('${side}')
+            "
+        >
             ✔
         </button>
     `;
 }
 
-// RĘCZNE PLAY AUDIO
+// AUDIO
 function playManualSound() {
 
     const selected =
-        document.getElementById("soundSelect").value;
+        document.getElementById(
+            "soundSelect"
+        ).value;
 
-    // zatrzymaj poprzedni
     if (manualAudio) {
 
         manualAudio.pause();
+
         manualAudio.currentTime = 0;
     }
 
-    manualAudio = new Audio(selected);
+    manualAudio =
+        new Audio(selected);
 
     manualAudio.play();
 
-    // update progress
-    manualAudio.ontimeupdate = () => {
+    manualAudio.ontimeupdate =
+        () => {
 
-        const current =
-            manualAudio.currentTime;
+            const current =
+                manualAudio.currentTime;
 
-        const duration =
-            manualAudio.duration || 0;
+            const duration =
+                manualAudio.duration || 0;
 
-        // progress bar
-        audioBar.value =
-            duration
-                ? (current / duration) * 100
-                : 0;
+            audioBar.value =
+                duration
+                    ? (
+                        current
+                        / duration
+                    ) * 100
+                    : 0;
 
-        // format czasu
-        audioTime.textContent =
-            formatTime(current)
-            + " / "
-            + formatTime(duration);
-    };
+            audioTime.textContent =
+                formatTime(current)
+                + " / "
+                + formatTime(duration);
+        };
 
-    // reset po końcu
-    manualAudio.onended = () => {
+    manualAudio.onended =
+        () => {
 
-        audioBar.value = 0;
+            audioBar.value = 0;
 
-        audioTime.textContent =
-            "00:00 / 00:00";
-    };
+            audioTime.textContent =
+                "00:00 / 00:00";
+        };
 }
 
-// STOP AUDIO
 function stopManualSound() {
 
-    if (!manualAudio) return;
+    if (!manualAudio)
+        return;
 
     manualAudio.pause();
 
     manualAudio.currentTime = 0;
 }
 
-function clearRoundPoints() {
-
-    const confirmClear = confirm(
-        "Czy jesteś pewny wyczyszczenia punktów?\n\n" +
-        "Pytanie i odpowiedzi zostaną wyświetlone.\n" +
-        "Punkty drużyn NIE zostaną wyzerowane.\n" +
-        "Wyzerują się tylko punkty z AKTUALNEJ rundy."
-    );
-
-    if (!confirmClear) return;
-
-    socket.emit("clearRoundPoints");
-}
-
+// TIMER
 function formatTime(seconds) {
 
     const mins =
-        Math.floor(seconds / 60);
+        Math.floor(
+            seconds / 60
+        );
 
     const secs =
-        Math.floor(seconds % 60);
+        Math.floor(
+            seconds % 60
+        );
 
     return (
-        String(mins).padStart(2, "0")
+        String(mins)
+            .padStart(2, "0")
         + ":"
-        + String(secs).padStart(2, "0")
+        + String(secs)
+            .padStart(2, "0")
     );
 }
 
 function updateGameTimer() {
 
     const mins =
-        Math.floor(gameSeconds / 60);
+        Math.floor(
+            gameSeconds / 60
+        );
 
     const secs =
         gameSeconds % 60;
 
-    document.getElementById("gameTimerText").textContent =
+    document.getElementById(
+        "gameTimerText"
+    ).textContent =
         "CZAS GRY: "
-        + String(mins).padStart(2, "0")
+        + String(mins)
+            .padStart(2, "0")
         + ":"
-        + String(secs).padStart(2, "0");
+        + String(secs)
+            .padStart(2, "0");
 }
 
 function resumeGameTimer() {
 
-    if (gameTimerInterval) return;
+    if (
+        gameTimerInterval
+    ) return;
 
-    gameTimerInterval = setInterval(() => {
+    gameTimerInterval =
+        setInterval(() => {
 
-        gameSeconds++;
+            gameSeconds++;
 
-        updateGameTimer();
+            updateGameTimer();
 
-    }, 1000);
+        }, 1000);
 }
 
 function pauseGameTimer() {
 
-    clearInterval(gameTimerInterval);
+    clearInterval(
+        gameTimerInterval
+    );
 
-    gameTimerInterval = null;
+    gameTimerInterval =
+        null;
 }
 
 function resetGameTimer() {
 
-    clearInterval(gameTimerInterval);
+    clearInterval(
+        gameTimerInterval
+    );
 
-    gameTimerInterval = null;
+    gameTimerInterval =
+        null;
 
     gameSeconds = 0;
 
     updateGameTimer();
 }
+
+// PDF
+socket.on(
+    "gameStats",
+    data => {
+
+        generatePDF(data);
+    }
+);
 
 function fixPolish(text) {
 
@@ -476,94 +520,53 @@ function fixPolish(text) {
         .replace(/ó/g, "o")
         .replace(/ś/g, "s")
         .replace(/ź/g, "z")
-        .replace(/ż/g, "z")
-        .replace(/Ą/g, "A")
-        .replace(/Ć/g, "C")
-        .replace(/Ę/g, "E")
-        .replace(/Ł/g, "L")
-        .replace(/Ń/g, "N")
-        .replace(/Ó/g, "O")
-        .replace(/Ś/g, "S")
-        .replace(/Ź/g, "Z")
-        .replace(/Ż/g, "Z");
+        .replace(/ż/g, "z");
 }
 
 async function generatePDF(data) {
 
-    const { jsPDF } = window.jspdf;
+    const { jsPDF } =
+        window.jspdf;
 
-    const doc = new jsPDF();
-    doc.setFont("helvetica");
+    const doc =
+        new jsPDF();
 
     let y = 20;
 
-    // Tytuł
     doc.setFontSize(20);
 
     doc.text(
-        fixPolish("STATYSTYKA ROZGRYWKI FAMILIADY"),
+        fixPolish(
+            "STATYSTYKA ROZGRYWKI FAMILIADY"
+        ),
         20,
         y
     );
 
-    y += 15;
+    y += 20;
 
-    // Data
     doc.setFontSize(12);
 
     doc.text(
-        fixPolish("Data wygenerowania: ")
-        + new Date().toLocaleString(),
+        fixPolish(
+        `${data.leftTeam}: ${data.leftPoints} pkt (błędów w sumie: ${data.leftErrors})`
+        ),
         20,
         y
     );
-
-    y += 15;
-
-    // Czas gry
-    const gameTime =
-        document.getElementById(
-            "gameTimerText"
-        ).textContent;
-
-    doc.text(
-        gameTime,
-        20,
-        y
-    );
-
-    y += 15;
-
-    // Wyniki
-    doc.setFontSize(16);
-
-    doc.text("WYNIKI:", 20, y);
 
     y += 10;
 
-    doc.setFontSize(12);
-
     doc.text(
         fixPolish(
-            `${data.leftTeam}: ${data.leftPoints} pkt (błędów w sumie: ${data.leftErrors})`
+        `${data.rightTeam}: ${data.rightPoints} pkt (błędów w sumie: ${data.rightErrors})`
         ),
-        25,
+        20,
         y
     );
 
-    y += 8;
+    y += 20;
 
-    doc.text(
-        fixPolish(
-            `${data.rightTeam}: ${data.rightPoints} pkt (błędów w sumie: ${data.rightErrors})`
-        ),
-        25,
-        y
-    );
-
-    y += 18;
-
-    // Pytania
     doc.setFontSize(16);
 
     doc.text(
@@ -578,28 +581,24 @@ async function generatePDF(data) {
 
     data.usedQuestions.forEach((q, i) => {
 
+        let line =
+            `${i + 1}. ${q.question}`;
+
+        if (
+            q.status === "ANULOWANE"
+        ) {
+
+            line += " [ANULOWANE]";
+        }
+
         doc.text(
-            fixPolish(
-                q.status === "ANULOWANE"
-                    ? `${i + 1}. ${q.question} [ANULOWANE]`
-                    : `${i + 1}. ${q.question}`
-
-                + (
-
-                    q.status === "ANULOWANE"
-
-                    ? " [ANULOWANE]"
-
-                    : ""
-                )
-            ),
+            fixPolish(line),
             25,
             y
         );
 
         y += 8;
 
-        // nowa strona
         if (y > 260) {
 
             doc.addPage();
@@ -610,38 +609,54 @@ async function generatePDF(data) {
 
     y += 15;
 
-    // Notka
+    // NOTKA
     doc.setFontSize(10);
 
     const note = fixPolish(`
+
     Statystyka wygenerowana przez autorski system Samorządu Uczniowskiego.
 
     System jest własnością Samorządu Uczniowskiego
     i nie należy go wykorzystywać bez zgody autora.
 
-    Niniejszym stwierdza się zgodność danych zawartych w statystyce
-    z przebiegiem rozgrywki oraz oficjalnymi wynikami uzyskanymi
-    podczas jej trwania.
+    Niniejszym stwierdza się zgodność danych zawartych
+    w statystyce z przebiegiem rozgrywki oraz oficjalnymi
+    wynikami uzyskanymi podczas jej trwania.
+
     `);
 
     const split =
-        doc.splitTextToSize(note, 170);
+        doc.splitTextToSize(
+            note,
+            170
+        );
 
-    doc.text(split, 20, y);
+    doc.text(
+        split,
+        20,
+        y
+    );
 
-    // zapis
+    // ZAPIS PDF
     doc.save(
         "statystyka_familiady.pdf"
     );
 
-    socket.emit("finalReset");
+    // RESET PO PDF
+    socket.emit(
+        "finalReset"
+    );
 }
 
+// POKAŻ PYTANIE
 function showQuestion() {
 
-    socket.emit("showQuestion");
+    socket.emit(
+        "showQuestion"
+    );
 }
 
+// STATUS MODAL
 function openStatusModal() {
 
     const modal =
@@ -660,7 +675,9 @@ function openStatusModal() {
         (q, i) => {
 
             const row =
-                document.createElement("div");
+                document.createElement(
+                    "div"
+                );
 
             row.className =
                 "statusRow";
@@ -676,23 +693,31 @@ function openStatusModal() {
                         gameState.usedQuestions[${i}].status = this.value
                     "
                 >
+
                     <option
                         value="ZATWIERDZONE"
-                        ${q.status === "ZATWIERDZONE" ? "selected" : ""}
+                        ${q.status === "ZATWIERDZONE"
+                            ? "selected"
+                            : ""}
                     >
                         ZATWIERDZONE
                     </option>
 
                     <option
                         value="ANULOWANE"
-                        ${q.status === "ANULOWANE" ? "selected" : ""}
+                        ${q.status === "ANULOWANE"
+                            ? "selected"
+                            : ""}
                     >
                         ANULOWANE
                     </option>
+
                 </select>
             `;
 
-            container.appendChild(row);
+            container.appendChild(
+                row
+            );
         }
     );
 
@@ -706,56 +731,34 @@ function confirmGeneratePDF() {
         "statusModal"
     ).style.display = "none";
 
-    clearInterval(
-        gameTimerInterval
+    socket.emit(
+        "resetGame",
+        {
+            usedQuestions:
+                gameState.usedQuestions
+        }
     );
-
-    generatePDF({
-
-        leftTeam:
-            gameState.teamNames.left,
-
-        rightTeam:
-            gameState.teamNames.right,
-
-        leftPoints:
-            gameState.teamPointsLeft,
-
-        rightPoints:
-            gameState.teamPointsRight,
-
-        leftErrors:
-            gameState.activeX.filter(
-                x => x.includes("left")
-            ).length,
-
-        rightErrors:
-            gameState.activeX.filter(
-                x => x.includes("right")
-            ).length,
-
-        usedQuestions:
-            gameState.usedQuestions
-    });
-
-    socket.emit("resetGame");
 }
 
+// ANULUJ PYTANIE
 function cancelQuestion() {
 
-    const confirmCancel = confirm(
-        "Czy na pewno anulować to pytanie?\n\n" +
-        "Pytanie otrzyma status ANULOWANE\n" +
-        "i nastąpi przejście do kolejnego pytania."
-    );
+    const confirmCancel =
+        confirm(
+            "Czy anulować pytanie?"
+        );
 
-    if (!confirmCancel) return;
+    if (!confirmCancel)
+        return;
 
-    // ostatnie pytanie
     const lastIndex =
         gameState.usedQuestions.length - 1;
 
-    // ustaw status
+    gameState.usedQuestions[
+        lastIndex
+    ].status =
+        "ANULOWANE";
+
     socket.emit(
         "updateQuestionStatus",
         {
@@ -764,6 +767,7 @@ function cancelQuestion() {
         }
     );
 
-    // nowe pytanie
-    socket.emit("newQuestion");
+    socket.emit(
+        "newQuestion"
+    );
 }
